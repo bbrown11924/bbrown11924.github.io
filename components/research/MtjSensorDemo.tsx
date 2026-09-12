@@ -5,7 +5,6 @@ import {
   R_ANTIPARALLEL,
   TMR_RATIO,
   clampField,
-  equilibriumAngle,
   resistance,
   normalizedConductance,
 } from "@/lib/mtj";
@@ -134,7 +133,16 @@ export default function MtjSensorDemo() {
   // Only the component along the pinned-layer axis (x) matters — see lib/mtj.ts.
   const h = (drag.x / MAX_DRAG) * 1.8;
   const hClamped = clampField(h);
-  const theta = equilibriumAngle(h); // radians, [0, PI]
+  // The free layer's true easy axis is *in-plane, perpendicular* to the
+  // pinned layer — i.e. into/out of this side-view diagram, not up/down
+  // through the film stack. Drawing that as a vertical arrow would read as
+  // "points out of the film plane," which is a different (and wrong)
+  // physical picture. So the arrow here only ever shows the projection onto
+  // the visible (pinned-layer) axis — cos(theta), which is just `hClamped`
+  // — as a length: it shrinks toward the middle as the true moment swings
+  // into the invisible in-plane direction, and grows again as it swings
+  // back out, but never rotates out of the page.
+  const freeLayerProjection = hClamped;
   const r = resistance(h);
   const conductance = normalizedConductance(h);
 
@@ -202,7 +210,13 @@ export default function MtjSensorDemo() {
           <text x={STACK_CX - FREE.w / 2 - 12} y={FREE.cy + 4} textAnchor="end" fontSize={13} fontWeight={600} fill="#92400e">
             Free layer
           </text>
-          <MomentArrow cx={STACK_CX} cy={FREE.cy} angleRad={theta} length={90} color="#92400e" />
+          <MomentArrow
+            cx={STACK_CX}
+            cy={FREE.cy}
+            angleRad={freeLayerProjection >= 0 ? 0 : Math.PI}
+            length={Math.max(10, Math.abs(freeLayerProjection) * 90)}
+            color="#92400e"
+          />
 
           {/* Draggable applied-field handle */}
           <line x1={ORIGIN.x} y1={ORIGIN.y} x2={ORIGIN.x + drag.x} y2={ORIGIN.y + drag.y} stroke="#2563eb" strokeWidth={2.5} strokeDasharray="4 4" opacity={0.6} />
@@ -220,11 +234,14 @@ export default function MtjSensorDemo() {
           </text>
         </svg>
         <p className="mt-2 text-xs text-gray-500">
-          Only the field component along the pinned layer's axis (horizontal) rotates the free
-          layer — drag straight up or down and notice nothing changes. That's deliberate: real
-          linear TMR sensors give the free layer an easy axis <em>perpendicular</em> to the pinned
-          layer specifically so the response to that horizontal field is smooth and reversible,
-          with no jumps (see <code>lib/mtj.ts</code>).
+          Only the field component along the pinned layer's axis (horizontal) does anything —
+          drag straight up or down and notice nothing changes. The free layer's arrow only ever
+          shrinks and grows along that same horizontal axis rather than swinging out of it: its
+          true easy axis is <em>in-plane but perpendicular</em> to the pinned layer — into/out of
+          this side view, not up out of the film — so what's drawn is its projection onto the
+          sensing axis, not a rotation you'd actually see from this angle. That perpendicular
+          easy axis is also deliberate: it's the one geometry where the response to field is
+          smooth and fully reversible, with no jumps (see <code>lib/mtj.ts</code>).
         </p>
       </div>
 
