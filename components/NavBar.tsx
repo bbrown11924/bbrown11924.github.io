@@ -5,11 +5,11 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { site } from "@/site.config";
 
-function PersonalDropdown() {
+function NavDropdown({ label, items }: { label: string; items: { href: string; label: string }[] }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const isActive = site.personalNav.items.some((item) => item.href === pathname);
+  const isActive = items.some((item) => item.href === pathname);
 
   useEffect(() => {
     if (!open) return;
@@ -39,7 +39,7 @@ function PersonalDropdown() {
           isActive && "font-semibold underline underline-offset-4"
         )}
       >
-        {site.personalNav.label}
+        {label}
         <span aria-hidden className="text-xs">▾</span>
       </button>
       {open && (
@@ -47,7 +47,7 @@ function PersonalDropdown() {
           role="menu"
           className="absolute right-0 z-50 mt-1 min-w-40 rounded-lg border bg-white py-1 shadow-md"
         >
-          {site.personalNav.items.map((item) => (
+          {items.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -68,25 +68,14 @@ function PersonalDropdown() {
 }
 
 export default function NavBar() {
-  const pathname = usePathname();
   return (
     <header className="sticky top-0 z-40 border-b bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="font-semibold">{site.name}</Link>
         <nav className="flex items-center gap-3">
-          {site.nav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                "rounded-md px-2 py-1 text-sm hover:bg-gray-100",
-                pathname === item.href && "font-semibold underline underline-offset-4"
-              )}
-            >
-              {item.label}
-            </Link>
+          {site.navGroups.map((group) => (
+            <NavDropdown key={group.label} label={group.label} items={group.items} />
           ))}
-          <PersonalDropdown />
         </nav>
       </div>
     </header>

@@ -72,11 +72,10 @@ later for e.g. "Projects" or "Courses" — see below.
 bar entries, and social/contact links live. Changing it updates the nav bar,
 page titles, footer, and Contact page everywhere at once.
 
-The nav bar has two parts: `site.nav` (professional pages, shown as normal
-links) and `site.personalNav` (anything more informal — currently just
-National Parks — shown as a "Personal" dropdown so the main bar stays
-uncluttered). Add more entries to either array the same way; a second
-personal page just needs another `{ href, label }` in `personalNav.items`.
+The nav bar is a row of dropdowns, one per entry in `site.navGroups` — each
+`{ label, items }` group becomes a "Label ▾" menu. Add a page to an existing
+group with another `{ href, label }` in its `items`, or start a whole new
+group (e.g. "Projects") by adding another entry to `navGroups`.
 
 ## Adding a brand-new, differently-shaped page
 
