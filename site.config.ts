@@ -25,6 +25,7 @@ export const site = {
       label: "Personal",
       items: [
         { href: "/parks", label: "National Parks" },
+        { href: "/games", label: "Game Library" },
       ],
     },
   ],

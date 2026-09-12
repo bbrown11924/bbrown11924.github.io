@@ -37,6 +37,16 @@ entry is one object in a JSON array.
   states — most don't have coordinates yet, so they list-only until you (or
   I) add some.
 
+- [`data/games.json`](data/games.json) — the Game Library (under "Personal").
+  Each entry is `{ "title", "console", "cover" }`. `console` must be one of
+  the ids in [`lib/consoles.ts`](lib/consoles.ts) (`nes`, `gba`, `wii`,
+  `wiiu`, `switch`, `pc`) — that file also controls the section order and
+  labels, and adding a new console there needs a matching icon added to
+  [`components/games/ConsoleIcons.tsx`](components/games/ConsoleIcons.tsx).
+  `cover` is a path under `public/games/<console>/` — drop the image file
+  there first (roughly 300-500px on the long side is plenty; a full-size
+  scan just makes the page slower to load), then point `cover` at it.
+
 Just keep it valid JSON (matching commas, quotes). If a page shows nothing or
 errors after an edit, that's almost always a stray/missing comma.
 

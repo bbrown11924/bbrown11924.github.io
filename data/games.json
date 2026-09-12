@@ -1,0 +1,23 @@
+[
+  { "title": "Core Keeper", "console": "pc", "cover": "/games/pc/core-keeper.jpg" },
+  { "title": "Grounded", "console": "pc", "cover": "/games/pc/grounded.jpg" },
+  { "title": "It Takes Two", "console": "pc", "cover": "/games/pc/it-takes-two.jpg" },
+  { "title": "Stardew Valley", "console": "pc", "cover": "/games/pc/stardew-valley.jpg" },
+  { "title": "Dota 2", "console": "pc", "cover": "/games/pc/dota-2.jpg" },
+  { "title": "Apex Legends", "console": "pc", "cover": "/games/pc/apex-legends.jpg" },
+  { "title": "Subnautica", "console": "pc", "cover": "/games/pc/subnautica.jpg" },
+  { "title": "Terraria", "console": "pc", "cover": "/games/pc/terraria.jpg" },
+  { "title": "Minecraft", "console": "pc", "cover": "/games/pc/minecraft.jpg" },
+
+  { "title": "Wii Play", "console": "wii", "cover": "/games/wii/wii-play.jpg" },
+  { "title": "Lego Star Wars: The Video Game", "console": "wii", "cover": "/games/wii/lego-star-wars.jpg" },
+  { "title": "Lego Batman: The Videogame", "console": "wii", "cover": "/games/wii/lego-batman.jpg" },
+
+  { "title": "Super Mario Maker 2", "console": "switch", "cover": "/games/switch/mario-maker-2.jpg" },
+  { "title": "Pokémon Legends: Arceus", "console": "switch", "cover": "/games/switch/pokemon-legends-arceus.jpg" },
+  { "title": "Pokémon Sword", "console": "switch", "cover": "/games/switch/pokemon-sword.jpg" },
+
+  { "title": "Pokémon Emerald", "console": "gba", "cover": "/games/gba/emerald.jpg" },
+  { "title": "Pokémon FireRed", "console": "gba", "cover": "/games/gba/firered.jpg" },
+  { "title": "Pokémon LeafGreen", "console": "gba", "cover": "/games/gba/leafgreen.jpg" }
+]
