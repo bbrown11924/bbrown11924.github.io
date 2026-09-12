@@ -5,7 +5,9 @@
     "type": "National Historic Site",
     "state": "Kentucky",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 37.5311,
+    "lon": -85.7375
   },
   {
     "name": "Acadia National Park",
@@ -35,7 +37,9 @@
     "type": "National Monument",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7144,
+    "lon": -74.0044
   },
   {
     "name": "Agate Fossil Beds NM",
@@ -43,7 +47,9 @@
     "type": "National Monument",
     "state": "Nebraska",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 42.4217,
+    "lon": -103.7539
   },
   {
     "name": "Alagnak Wild River",
@@ -51,7 +57,9 @@
     "type": "Wild River",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 59.0047,
+    "lon": -156.8603
   },
   {
     "name": "Alibates Flint Quarries NM",
@@ -59,7 +67,9 @@
     "type": "National Monument",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.575,
+    "lon": -101.6838
   },
   {
     "name": "Allegheny Portage Railroad NHS",
@@ -67,7 +77,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.4542,
+    "lon": -78.5403
   },
   {
     "name": "Amache NHS",
@@ -75,7 +87,9 @@
     "type": "National Historic Site",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 38.0496,
+    "lon": -102.3286
   },
   {
     "name": "American Samoa National Park",
@@ -93,7 +107,9 @@
     "type": "National Recreation Area",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 29.4367,
+    "lon": -101.05
   },
   {
     "name": "Andersonville NHS",
@@ -101,7 +117,9 @@
     "type": "National Historic Site",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.1947,
+    "lon": -84.1289
   },
   {
     "name": "Andrew Johnson NHS",
@@ -109,7 +127,9 @@
     "type": "National Historic Site",
     "state": "Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.1583,
+    "lon": -82.835
   },
   {
     "name": "Aniakchak NM&PRES",
@@ -117,7 +137,9 @@
     "type": "National Monument & Preserve",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 56.8333,
+    "lon": -158.25
   },
   {
     "name": "Antietam NB",
@@ -125,7 +147,9 @@
     "type": "National Battlefield",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.4703,
+    "lon": -77.7381
   },
   {
     "name": "Apostle Islands NL",
@@ -133,7 +157,9 @@
     "type": "National Lakeshore",
     "state": "Wisconsin",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 46.9653,
+    "lon": -90.6642
   },
   {
     "name": "Appalachian NST",
@@ -149,7 +175,9 @@
     "type": "National Historical Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.3775,
+    "lon": -78.796
   },
   {
     "name": "Arches National Park",
@@ -167,7 +195,9 @@
     "type": "National Memorial",
     "state": "Arkansas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 34.0167,
+    "lon": -91.3453
   },
   {
     "name": "Arlington House, the Robert E. Lee Memorial",
@@ -183,7 +213,9 @@
     "type": "National Seashore",
     "state": "Maryland, Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.0833,
+    "lon": -75.2083
   },
   {
     "name": "Aztec Ruins NM",
@@ -191,7 +223,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.8358,
+    "lon": -107.9981
   },
   {
     "name": "Badlands National Park",
@@ -209,7 +243,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.7789,
+    "lon": -106.3211
   },
   {
     "name": "Belmont-Paul Women's Equality NM",
@@ -217,7 +253,9 @@
     "type": "National Monument",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8919,
+    "lon": -77.0036
   },
   {
     "name": "Bent's Old Fort NHS",
@@ -225,7 +263,9 @@
     "type": "National Historic Site",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 38.0406,
+    "lon": -103.4294
   },
   {
     "name": "Bering Land Bridge NPRES",
@@ -233,7 +273,9 @@
     "type": "National Preserve",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 65.8333,
+    "lon": -164.1667
   },
   {
     "name": "Big Bend National Park",
@@ -251,7 +293,9 @@
     "type": "National Preserve",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 25.8589,
+    "lon": -81.0339
   },
   {
     "name": "Big Hole NB",
@@ -259,7 +303,9 @@
     "type": "National Battlefield",
     "state": "Montana",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 45.6375,
+    "lon": -113.6436
   },
   {
     "name": "Big South Fork NRRA",
@@ -267,7 +313,9 @@
     "type": "National River & Recreation Area",
     "state": "Kentucky, Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.4865,
+    "lon": -84.6985
   },
   {
     "name": "Big Thicket NPRES",
@@ -275,7 +323,9 @@
     "type": "National Preserve",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 30.5475,
+    "lon": -94.34
   },
   {
     "name": "Bighorn Canyon NRA",
@@ -283,7 +333,9 @@
     "type": "National Recreation Area",
     "state": "Montana, Wyoming",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 45.1944,
+    "lon": -108.1306
   },
   {
     "name": "Birmingham Civil Rights NM",
@@ -330,7 +382,9 @@
     "type": "National Historic Site",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 30.3059,
+    "lon": -104.0221
   },
   {
     "name": "Blue Ridge PKWY",
@@ -346,7 +400,9 @@
     "type": "National Scenic River",
     "state": "West Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.5417,
+    "lon": -80.9992
   },
   {
     "name": "Booker T. Washington NM",
@@ -354,7 +410,9 @@
     "type": "National Monument",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.1196,
+    "lon": -79.7315
   },
   {
     "name": "Boston African American NHS",
@@ -373,7 +431,9 @@
     "type": "National Recreation Area",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.3186,
+    "lon": -70.9458
   },
   {
     "name": "Boston NHP",
@@ -392,7 +452,9 @@
     "type": "National Battlefield Site",
     "state": "Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.5061,
+    "lon": -88.7289
   },
   {
     "name": "Brown v. Board of Education NHP",
@@ -400,7 +462,9 @@
     "type": "National Historical Park",
     "state": "Kansas, South Carolina",
     "region": "Midwest, Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 39.0381,
+    "lon": -95.6764
   },
   {
     "name": "Bryce Canyon National Park",
@@ -418,7 +482,9 @@
     "type": "National Monument",
     "state": "Virgin Islands",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 17.7869,
+    "lon": -64.6192
   },
   {
     "name": "Buffalo NR",
@@ -426,7 +492,9 @@
     "type": "National River",
     "state": "Arkansas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.1781,
+    "lon": -92.4261
   },
   {
     "name": "Cabrillo NM",
@@ -445,7 +513,9 @@
     "type": "National Monument",
     "state": "Kentucky",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 37.7878,
+    "lon": -84.5981
   },
   {
     "name": "Canaveral NS",
@@ -453,7 +523,9 @@
     "type": "National Seashore",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 28.7675,
+    "lon": -80.7769
   },
   {
     "name": "Cane River Creole NHP",
@@ -461,7 +533,9 @@
     "type": "National Historical Park",
     "state": "Louisiana",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 31.6656,
+    "lon": -93.0028
   },
   {
     "name": "Canyon de Chelly NM",
@@ -469,7 +543,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.1553,
+    "lon": -109.509
   },
   {
     "name": "Canyonlands National Park",
@@ -487,7 +563,9 @@
     "type": "National Seashore",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.8372,
+    "lon": -69.9728
   },
   {
     "name": "Cape Hatteras NS",
@@ -495,7 +573,9 @@
     "type": "National Seashore",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.3036,
+    "lon": -75.5114
   },
   {
     "name": "Cape Krusenstern NM",
@@ -503,7 +583,9 @@
     "type": "National Monument",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 67.3333,
+    "lon": -163.5833
   },
   {
     "name": "Cape Lookout NS",
@@ -511,7 +593,9 @@
     "type": "National Seashore",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.6125,
+    "lon": -76.5306
   },
   {
     "name": "Capitol Reef National Park",
@@ -529,7 +613,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.7822,
+    "lon": -103.97
   },
   {
     "name": "Carl Sandburg Home NHS",
@@ -537,7 +623,9 @@
     "type": "National Historic Site",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.2715,
+    "lon": -82.4472
   },
   {
     "name": "Carlisle Federal Indian Boarding School NM",
@@ -545,7 +633,9 @@
     "type": "National Monument",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.209,
+    "lon": -77.178
   },
   {
     "name": "Carlsbad Caverns National Park",
@@ -563,7 +653,9 @@
     "type": "National Historic Site",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.91,
+    "lon": -77.0242
   },
   {
     "name": "Casa Grande Ruins NM",
@@ -571,7 +663,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 32.997,
+    "lon": -111.5321
   },
   {
     "name": "Castillo de San Marcos NM",
@@ -579,7 +673,9 @@
     "type": "National Monument",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 29.8978,
+    "lon": -81.3114
   },
   {
     "name": "Castle Clinton NM",
@@ -587,7 +683,9 @@
     "type": "National Monument",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7035,
+    "lon": -74.0168
   },
   {
     "name": "Castle Mountains NM",
@@ -595,7 +693,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.25,
+    "lon": -115.11
   },
   {
     "name": "Catoctin Mountain Park",
@@ -603,7 +703,9 @@
     "type": "Park",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.6344,
+    "lon": -77.45
   },
   {
     "name": "Cedar Breaks NM",
@@ -611,7 +713,9 @@
     "type": "National Monument",
     "state": "Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 37.6425,
+    "lon": -112.8488
   },
   {
     "name": "Cedar Creek and Belle Grove NHP",
@@ -619,7 +723,9 @@
     "type": "National Historical Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.1675,
+    "lon": -78.3008
   },
   {
     "name": "César E. Chávez NM",
@@ -627,7 +733,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.2273,
+    "lon": -118.5614
   },
   {
     "name": "Chaco Culture NHP",
@@ -635,7 +743,9 @@
     "type": "National Historical Park",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.06,
+    "lon": -107.96
   },
   {
     "name": "Chamizal NMEM",
@@ -643,7 +753,9 @@
     "type": "National Memorial",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 31.7678,
+    "lon": -106.4542
   },
   {
     "name": "Channel Islands National Park",
@@ -661,7 +773,9 @@
     "type": "National Historic Site",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.8461,
+    "lon": -79.8247
   },
   {
     "name": "Charles Young Buffalo Soldiers NM",
@@ -677,7 +791,9 @@
     "type": "National Recreation Area",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 33.9872,
+    "lon": -84.3247
   },
   {
     "name": "Chesapeake & Ohio Canal NHP",
@@ -685,7 +801,9 @@
     "type": "National Historical Park",
     "state": "District of Columbia, Maryland",
     "region": "Mid-Atlantic, National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8997,
+    "lon": -77.0578
   },
   {
     "name": "Chickamauga & Chattanooga NMP",
@@ -693,7 +811,9 @@
     "type": "National Military Park",
     "state": "Georgia, Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.94,
+    "lon": -85.26
   },
   {
     "name": "Chickasaw NRA",
@@ -701,7 +821,9 @@
     "type": "National Recreation Area",
     "state": "Oklahoma",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 34.5006,
+    "lon": -96.9722
   },
   {
     "name": "Chiricahua NM",
@@ -709,7 +831,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 32.0057,
+    "lon": -109.3567
   },
   {
     "name": "Christiansted NHS",
@@ -717,7 +841,9 @@
     "type": "National Historic Site",
     "state": "Virgin Islands",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 17.7469,
+    "lon": -64.7022
   },
   {
     "name": "City of Rocks NRES",
@@ -725,7 +851,9 @@
     "type": "National Reserve",
     "state": "Idaho",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 42.0699,
+    "lon": -113.7124
   },
   {
     "name": "Clara Barton NHS",
@@ -733,7 +861,9 @@
     "type": "National Historic Site",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.9669,
+    "lon": -77.1408
   },
   {
     "name": "Colonial NHP",
@@ -741,7 +871,9 @@
     "type": "National Historical Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.2192,
+    "lon": -76.5172
   },
   {
     "name": "Colorado NM",
@@ -749,7 +881,9 @@
     "type": "National Monument",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 39.0425,
+    "lon": -108.6861
   },
   {
     "name": "Congaree National Park",
@@ -767,7 +901,9 @@
     "type": "Park",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8912,
+    "lon": -77.0431
   },
   {
     "name": "Coronado NMEM",
@@ -775,7 +911,9 @@
     "type": "National Memorial",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 31.3483,
+    "lon": -110.2717
   },
   {
     "name": "Cowpens NB",
@@ -783,7 +921,9 @@
     "type": "National Battlefield",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.1367,
+    "lon": -81.8181
   },
   {
     "name": "Crater Lake National Park",
@@ -801,7 +941,9 @@
     "type": "National Monument & Preserve",
     "state": "Idaho",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 43.4617,
+    "lon": -113.5627
   },
   {
     "name": "Cumberland Gap NHP",
@@ -809,7 +951,9 @@
     "type": "National Historical Park",
     "state": "Kentucky, Tennessee, Virginia",
     "region": "Mid-Atlantic, Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.6042,
+    "lon": -83.6872
   },
   {
     "name": "Cumberland Island NS",
@@ -817,7 +961,9 @@
     "type": "National Seashore",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 30.8333,
+    "lon": -81.45
   },
   {
     "name": "Curecanti NRA",
@@ -825,7 +971,9 @@
     "type": "National Recreation Area",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 38.4547,
+    "lon": -107.3269
   },
   {
     "name": "Cuyahoga Valley National Park",
@@ -843,7 +991,9 @@
     "type": "National Historical Park",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.7947,
+    "lon": -84.0889
   },
   {
     "name": "De Soto NMEM",
@@ -851,7 +1001,9 @@
     "type": "National Memorial",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 27.5239,
+    "lon": -82.6444
   },
   {
     "name": "Death Valley National Park",
@@ -869,7 +1021,9 @@
     "type": "National Recreation Area",
     "state": "New Jersey, Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.1538,
+    "lon": -74.9139
   },
   {
     "name": "Denali NP&PRES",
@@ -887,7 +1041,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.6244,
+    "lon": -119.0844
   },
   {
     "name": "Devils Tower NM",
@@ -895,7 +1051,9 @@
     "type": "National Monument",
     "state": "Wyoming",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 44.5906,
+    "lon": -104.7153
   },
   {
     "name": "Dinosaur NM",
@@ -903,7 +1061,9 @@
     "type": "National Monument",
     "state": "Colorado, Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 40.5,
+    "lon": -108.95
   },
   {
     "name": "Dry Tortugas National Park",
@@ -932,7 +1092,9 @@
     "type": "National Historical Reserve",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 48.2183,
+    "lon": -122.6836
   },
   {
     "name": "Edgar Allan Poe NHS",
@@ -940,7 +1102,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.9617,
+    "lon": -75.1503
   },
   {
     "name": "Effigy Mounds NM",
@@ -948,7 +1112,9 @@
     "type": "National Monument",
     "state": "Iowa",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 43.0888,
+    "lon": -91.1856
   },
   {
     "name": "Eisenhower NHS",
@@ -956,7 +1122,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.7933,
+    "lon": -77.2633
   },
   {
     "name": "El Malpais NM",
@@ -964,7 +1132,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 34.8772,
+    "lon": -108.0508
   },
   {
     "name": "El Morro NM",
@@ -972,7 +1142,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.0383,
+    "lon": -108.3533
   },
   {
     "name": "Eleanor Roosevelt NHS",
@@ -980,7 +1152,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.7631,
+    "lon": -73.8989
   },
   {
     "name": "Emmett Till and Mamie Till-Mobley NM",
@@ -988,7 +1162,9 @@
     "type": "National Monument",
     "state": "Illinois, Mississippi",
     "region": "Midwest, Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 33.8606,
+    "lon": -90.2747
   },
   {
     "name": "Eugene O'Neill NHS",
@@ -996,7 +1172,9 @@
     "type": "National Historic Site",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.8244,
+    "lon": -122.0297
   },
   {
     "name": "Everglades National Park",
@@ -1014,7 +1192,9 @@
     "type": "National Memorial",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7072,
+    "lon": -74.0103
   },
   {
     "name": "Fire Island NS",
@@ -1022,7 +1202,9 @@
     "type": "National Seashore",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.6964,
+    "lon": -72.9828
   },
   {
     "name": "First Ladies NHS",
@@ -1030,7 +1212,9 @@
     "type": "National Historic Site",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 40.7967,
+    "lon": -81.3753
   },
   {
     "name": "First State NHP",
@@ -1038,7 +1222,9 @@
     "type": "National Historical Park",
     "state": "Delaware, Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.6647,
+    "lon": -75.5653
   },
   {
     "name": "Flight 93 NMEM",
@@ -1046,7 +1232,9 @@
     "type": "National Memorial",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.0567,
+    "lon": -78.9058
   },
   {
     "name": "Florissant Fossil Beds NM",
@@ -1065,7 +1253,9 @@
     "type": "National Historic Site",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8967,
+    "lon": -77.0258
   },
   {
     "name": "Fort Bowie NHS",
@@ -1073,7 +1263,9 @@
     "type": "National Historic Site",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 32.1461,
+    "lon": -109.4356
   },
   {
     "name": "Fort Caroline NMEM",
@@ -1081,7 +1273,9 @@
     "type": "National Memorial",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 30.3869,
+    "lon": -81.5006
   },
   {
     "name": "Fort Davis NHS",
@@ -1089,7 +1283,9 @@
     "type": "National Historic Site",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 30.5992,
+    "lon": -103.8928
   },
   {
     "name": "Fort Donelson NB",
@@ -1097,7 +1293,9 @@
     "type": "National Battlefield",
     "state": "Kentucky, Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.4872,
+    "lon": -87.8608
   },
   {
     "name": "Fort Frederica NM",
@@ -1105,7 +1303,9 @@
     "type": "National Monument",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 31.2238,
+    "lon": -81.3932
   },
   {
     "name": "Fort Laramie NHS",
@@ -1113,7 +1313,9 @@
     "type": "National Historic Site",
     "state": "Wyoming",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 42.2092,
+    "lon": -104.5359
   },
   {
     "name": "Fort Larned NHS",
@@ -1121,7 +1323,9 @@
     "type": "National Historic Site",
     "state": "Kansas",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 38.1831,
+    "lon": -99.2181
   },
   {
     "name": "Fort Matanzas NM",
@@ -1129,7 +1333,9 @@
     "type": "National Monument",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 29.7153,
+    "lon": -81.2392
   },
   {
     "name": "Fort McHenry NM & Historic Shrine",
@@ -1148,7 +1354,9 @@
     "type": "National Monument",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.0036,
+    "lon": -76.3075
   },
   {
     "name": "Fort Necessity NB",
@@ -1156,7 +1364,9 @@
     "type": "National Battlefield",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.8153,
+    "lon": -79.5894
   },
   {
     "name": "Fort Point NHS",
@@ -1164,7 +1374,9 @@
     "type": "National Historic Site",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.8106,
+    "lon": -122.4772
   },
   {
     "name": "Fort Pulaski NM",
@@ -1172,7 +1384,9 @@
     "type": "National Monument",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.0272,
+    "lon": -80.8903
   },
   {
     "name": "Fort Raleigh NHS",
@@ -1180,7 +1394,9 @@
     "type": "National Historic Site",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.9386,
+    "lon": -75.71
   },
   {
     "name": "Fort Scott NHS",
@@ -1188,7 +1404,9 @@
     "type": "National Historic Site",
     "state": "Kansas",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 37.8439,
+    "lon": -94.7047
   },
   {
     "name": "Fort Smith NHS",
@@ -1196,7 +1414,9 @@
     "type": "National Historic Site",
     "state": "Arkansas, Oklahoma",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.3882,
+    "lon": -94.4298
   },
   {
     "name": "Fort Stanwix NM",
@@ -1204,7 +1424,9 @@
     "type": "National Monument",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 43.2106,
+    "lon": -75.4553
   },
   {
     "name": "Fort Sumter & Fort Moultrie NHP",
@@ -1212,7 +1434,9 @@
     "type": "National Historical Park",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.7522,
+    "lon": -79.8747
   },
   {
     "name": "Fort Union NM",
@@ -1220,7 +1444,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.907,
+    "lon": -105.015
   },
   {
     "name": "Fort Union Trading Post NHS",
@@ -1228,7 +1454,9 @@
     "type": "National Historic Site",
     "state": "Montana, North Dakota",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 47.9994,
+    "lon": -104.0406
   },
   {
     "name": "Fort Vancouver NHS",
@@ -1236,7 +1464,9 @@
     "type": "National Historic Site",
     "state": "Oregon, Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 45.6254,
+    "lon": -122.6582
   },
   {
     "name": "Fort Washington Park",
@@ -1244,7 +1474,9 @@
     "type": "Park",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.7108,
+    "lon": -77.0331
   },
   {
     "name": "Fossil Butte NM",
@@ -1252,7 +1484,9 @@
     "type": "National Monument",
     "state": "Wyoming",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 41.8644,
+    "lon": -110.7758
   },
   {
     "name": "Frances Perkins NM",
@@ -1271,7 +1505,9 @@
     "type": "Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8839,
+    "lon": -77.0444
   },
   {
     "name": "Frederick Douglass NHS",
@@ -1279,7 +1515,9 @@
     "type": "National Historic Site",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8633,
+    "lon": -76.9853
   },
   {
     "name": "Frederick Law Olmsted NHS",
@@ -1287,7 +1525,9 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.325,
+    "lon": -71.1322
   },
   {
     "name": "Fredericksburg & Spotsylvania County Battlefields Memorial NMP",
@@ -1295,7 +1535,9 @@
     "type": "National Military Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.2931,
+    "lon": -77.4692
   },
   {
     "name": "Freedom Riders NM",
@@ -1303,7 +1545,9 @@
     "type": "National Monument",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 33.635,
+    "lon": -85.9083
   },
   {
     "name": "Friendship Hill NHS",
@@ -1311,7 +1555,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.7778,
+    "lon": -79.9292
   },
   {
     "name": "Gates of the Arctic NP&PRES",
@@ -1339,7 +1585,9 @@
     "type": "National Recreation Area",
     "state": "New Jersey, New York",
     "region": "Mid-Atlantic, North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.454,
+    "lon": -73.997
   },
   {
     "name": "Gauley River NRA",
@@ -1347,7 +1595,9 @@
     "type": "National Recreation Area",
     "state": "West Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.22,
+    "lon": -80.89
   },
   {
     "name": "General Grant NMEM",
@@ -1355,7 +1605,9 @@
     "type": "National Memorial",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.8133,
+    "lon": -73.9631
   },
   {
     "name": "George Rogers Clark NHP",
@@ -1363,7 +1615,9 @@
     "type": "National Historical Park",
     "state": "Indiana",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 38.6792,
+    "lon": -87.5356
   },
   {
     "name": "George Washington Birthplace NM",
@@ -1371,7 +1625,9 @@
     "type": "National Monument",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.1856,
+    "lon": -76.9164
   },
   {
     "name": "George Washington Carver NM",
@@ -1379,7 +1635,9 @@
     "type": "National Monument",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.9864,
+    "lon": -94.3542
   },
   {
     "name": "George Washington Memorial PKWY",
@@ -1387,7 +1645,9 @@
     "type": "Parkway",
     "state": "District of Columbia, Maryland, Virginia",
     "region": "Mid-Atlantic, National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8894,
+    "lon": -77.0353
   },
   {
     "name": "Gettysburg NMP",
@@ -1395,7 +1655,9 @@
     "type": "National Military Park",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.8086,
+    "lon": -77.2367
   },
   {
     "name": "Gila Cliff Dwellings NM",
@@ -1403,7 +1665,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 33.2272,
+    "lon": -108.2722
   },
   {
     "name": "Glacier Bay NP&PRES",
@@ -1432,7 +1696,9 @@
     "type": "National Recreation Area",
     "state": "Arizona, Utah",
     "region": "Rocky Mountain, Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.9936,
+    "lon": -111.4869
   },
   {
     "name": "Golden Gate NRA",
@@ -1440,7 +1706,9 @@
     "type": "National Recreation Area",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.8,
+    "lon": -122.48
   },
   {
     "name": "Golden Spike NHP",
@@ -1448,7 +1716,9 @@
     "type": "National Historical Park",
     "state": "Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 41.6179,
+    "lon": -112.5516
   },
   {
     "name": "Governors Island NM",
@@ -1456,7 +1726,9 @@
     "type": "National Monument",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.6914,
+    "lon": -74.0161
   },
   {
     "name": "Grand Canyon National Park",
@@ -1474,7 +1746,9 @@
     "type": "National Monument",
     "state": "Minnesota",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 47.9964,
+    "lon": -89.7342
   },
   {
     "name": "Grand Teton National Park",
@@ -1492,7 +1766,9 @@
     "type": "National Historic Site",
     "state": "Montana",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 46.4083,
+    "lon": -112.7394
   },
   {
     "name": "Great Basin National Park",
@@ -1538,7 +1814,9 @@
     "type": "Park",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.9833,
+    "lon": -76.8978
   },
   {
     "name": "Guadalupe Mountains National Park",
@@ -1556,7 +1834,9 @@
     "type": "National Military Park",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.1314,
+    "lon": -79.8464
   },
   {
     "name": "Gulf Islands NS",
@@ -1564,7 +1844,9 @@
     "type": "National Seashore",
     "state": "Florida, Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 30.3644,
+    "lon": -86.9675
   },
   {
     "name": "Hagerman Fossil Beds NM",
@@ -1572,7 +1854,9 @@
     "type": "National Monument",
     "state": "Idaho",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 42.7903,
+    "lon": -114.9453
   },
   {
     "name": "Haleakalā National Park",
@@ -1590,7 +1874,9 @@
     "type": "National Memorial",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.8214,
+    "lon": -73.9472
   },
   {
     "name": "Hampton NHS",
@@ -1598,7 +1884,9 @@
     "type": "National Historic Site",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.4161,
+    "lon": -76.5875
   },
   {
     "name": "Harpers Ferry NHP",
@@ -1606,7 +1894,9 @@
     "type": "National Historical Park",
     "state": "Maryland, Virginia, West Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.3228,
+    "lon": -77.7297
   },
   {
     "name": "Harriet Tubman NHP",
@@ -1614,7 +1904,9 @@
     "type": "National Historical Park",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.9111,
+    "lon": -76.5678
   },
   {
     "name": "Harriet Tubman Underground Railroad NHP",
@@ -1622,7 +1914,9 @@
     "type": "National Historical Park",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.4483,
+    "lon": -76.1387
   },
   {
     "name": "Harry S Truman NHS",
@@ -1630,7 +1924,9 @@
     "type": "National Historic Site",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.0933,
+    "lon": -94.4231
   },
   {
     "name": "Hawai'i Volcanoes National Park",
@@ -1648,7 +1944,9 @@
     "type": "National Historic Site",
     "state": "Iowa",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.6689,
+    "lon": -91.3481
   },
   {
     "name": "Hohokam Pima NM",
@@ -1656,7 +1954,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 33.1875,
+    "lon": -111.9245
   },
   {
     "name": "Home of Franklin D. Roosevelt NHS",
@@ -1664,7 +1964,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.7672,
+    "lon": -73.9356
   },
   {
     "name": "Homestead NHP",
@@ -1672,7 +1974,9 @@
     "type": "National Historical Park",
     "state": "Nebraska",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 40.2853,
+    "lon": -96.8219
   },
   {
     "name": "Honouliuli NHS",
@@ -1680,7 +1984,9 @@
     "type": "National Historic Site",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 21.3917,
+    "lon": -158.0597
   },
   {
     "name": "Hopewell Culture NHP",
@@ -1688,7 +1994,9 @@
     "type": "National Historical Park",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.3758,
+    "lon": -83.0064
   },
   {
     "name": "Hopewell Furnace NHS",
@@ -1696,7 +2004,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.1986,
+    "lon": -75.7756
   },
   {
     "name": "Horseshoe Bend NMP",
@@ -1704,7 +2014,9 @@
     "type": "National Military Park",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.9708,
+    "lon": -85.7383
   },
   {
     "name": "Hot Springs National Park",
@@ -1722,7 +2034,9 @@
     "type": "National Monument",
     "state": "Colorado, Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 37.3839,
+    "lon": -109.0772
   },
   {
     "name": "Hubbell Trading Post NHS",
@@ -1730,7 +2044,9 @@
     "type": "National Historic Site",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.7239,
+    "lon": -109.56
   },
   {
     "name": "Ice Age NST",
@@ -1738,7 +2054,9 @@
     "type": "National Scenic Trail",
     "state": "Wisconsin",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 43.4338,
+    "lon": -89.7225
   },
   {
     "name": "Independence NHP",
@@ -1746,7 +2064,9 @@
     "type": "National Historical Park",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.9478,
+    "lon": -75.1481
   },
   {
     "name": "Indiana Dunes National Park",
@@ -1774,7 +2094,9 @@
     "type": "National Historic Site",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.664,
+    "lon": -81.3509
   },
   {
     "name": "Jean Lafitte NHP&PRES",
@@ -1782,7 +2104,9 @@
     "type": "National Historical Park & Preserve",
     "state": "Louisiana",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 29.9425,
+    "lon": -89.9942
   },
   {
     "name": "Jewel Cave NM",
@@ -1790,7 +2114,9 @@
     "type": "National Monument",
     "state": "South Dakota",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 43.7294,
+    "lon": -103.8294
   },
   {
     "name": "Jimmy Carter NHP",
@@ -1798,7 +2124,9 @@
     "type": "National Historical Park",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.0304,
+    "lon": -84.4182
   },
   {
     "name": "John D. Rockefeller, Jr. Memorial PKWY",
@@ -1806,7 +2134,9 @@
     "type": "Parkway",
     "state": "Wyoming",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 44.1047,
+    "lon": -110.6928
   },
   {
     "name": "John Day Fossil Beds NM",
@@ -1814,7 +2144,9 @@
     "type": "National Monument",
     "state": "Oregon",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 44.5558,
+    "lon": -119.6453
   },
   {
     "name": "John Fitzgerald Kennedy NHS",
@@ -1822,7 +2154,9 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.3469,
+    "lon": -71.1233
   },
   {
     "name": "John Muir NHS",
@@ -1830,7 +2164,9 @@
     "type": "National Historic Site",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.9913,
+    "lon": -122.1333
   },
   {
     "name": "Johnstown Flood NMEM",
@@ -1838,7 +2174,9 @@
     "type": "National Memorial",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.3456,
+    "lon": -78.7786
   },
   {
     "name": "Joshua Tree National Park",
@@ -1856,7 +2194,9 @@
     "type": "National Historical Park",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 21.1778,
+    "lon": -156.96
   },
   {
     "name": "Kaloko-Honokōhau NHP",
@@ -1864,7 +2204,9 @@
     "type": "National Historical Park",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 19.6787,
+    "lon": -156.022
   },
   {
     "name": "Katahdin Woods & Waters NM",
@@ -1872,7 +2214,9 @@
     "type": "National Monument",
     "state": "Maine",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 45.9704,
+    "lon": -68.6193
   },
   {
     "name": "Katmai NP&PRES",
@@ -1900,7 +2244,9 @@
     "type": "National Battlefield Park",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 33.9831,
+    "lon": -84.5781
   },
   {
     "name": "Keweenaw NHP",
@@ -1908,7 +2254,9 @@
     "type": "National Historical Park",
     "state": "Michigan",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 47.1564,
+    "lon": -88.5636
   },
   {
     "name": "Kings Canyon National Park",
@@ -1926,7 +2274,9 @@
     "type": "National Military Park",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.1378,
+    "lon": -81.3894
   },
   {
     "name": "Klondike Gold Rush NHP",
@@ -1944,7 +2294,9 @@
     "type": "National Historic Site",
     "state": "North Dakota",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 47.3542,
+    "lon": -101.3858
   },
   {
     "name": "Kobuk Valley National Park",
@@ -1973,7 +2325,9 @@
     "type": "National Recreation Area",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 48.3219,
+    "lon": -120.6783
   },
   {
     "name": "Lake Clark NP&PRES",
@@ -1991,7 +2345,9 @@
     "type": "National Recreation Area",
     "state": "Arizona, Nevada",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.0097,
+    "lon": -114.7967
   },
   {
     "name": "Lake Meredith NRA",
@@ -1999,7 +2355,9 @@
     "type": "National Recreation Area",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.7147,
+    "lon": -101.5528
   },
   {
     "name": "Lake Roosevelt NRA",
@@ -2007,7 +2365,9 @@
     "type": "National Recreation Area",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 48.1074,
+    "lon": -118.2129
   },
   {
     "name": "Lassen Volcanic National Park",
@@ -2025,7 +2385,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 41.7139,
+    "lon": -121.5083
   },
   {
     "name": "Lewis and Clark NHP",
@@ -2033,7 +2395,9 @@
     "type": "National Historical Park",
     "state": "Oregon, Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 46.1336,
+    "lon": -123.8775
   },
   {
     "name": "Lincoln Boyhood NMEM",
@@ -2041,7 +2405,9 @@
     "type": "National Memorial",
     "state": "Indiana",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 38.1183,
+    "lon": -86.9969
   },
   {
     "name": "Lincoln Home NHS",
@@ -2049,7 +2415,9 @@
     "type": "National Historic Site",
     "state": "Illinois",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.7972,
+    "lon": -89.645
   },
   {
     "name": "Lincoln Memorial",
@@ -2068,7 +2436,9 @@
     "type": "National Monument",
     "state": "Montana",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 45.5703,
+    "lon": -107.4275
   },
   {
     "name": "Little River Canyon NPRES",
@@ -2076,7 +2446,9 @@
     "type": "National Preserve",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.4406,
+    "lon": -85.5956
   },
   {
     "name": "Little Rock Central High School NHS",
@@ -2084,7 +2456,9 @@
     "type": "National Historic Site",
     "state": "Arkansas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 34.7368,
+    "lon": -92.2989
   },
   {
     "name": "Longfellow House - Washington's Headquarters NHS",
@@ -2092,7 +2466,9 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.3767,
+    "lon": -71.1264
   },
   {
     "name": "Lowell NHP",
@@ -2111,7 +2487,9 @@
     "type": "National Historical Park",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 30.2408,
+    "lon": -98.6242
   },
   {
     "name": "Lyndon Baines Johnson Memorial Grove on the Potomac",
@@ -2119,7 +2497,9 @@
     "type": "Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8786,
+    "lon": -77.0514
   },
   {
     "name": "Maggie L. Walker NHS",
@@ -2127,7 +2507,9 @@
     "type": "National Historic Site",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.5478,
+    "lon": -77.4381
   },
   {
     "name": "Mammoth Cave National Park",
@@ -2145,7 +2527,9 @@
     "type": "National Battlefield Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.8128,
+    "lon": -77.5217
   },
   {
     "name": "Manhattan Project NHP",
@@ -2153,7 +2537,9 @@
     "type": "National Historical Park",
     "state": "New Mexico, Tennessee, Washington",
     "region": "Pacific NW & Alaska, Southeast, Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.9369,
+    "lon": -84.3944
   },
   {
     "name": "Manzanar NHS",
@@ -2161,7 +2547,9 @@
     "type": "National Historic Site",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.7283,
+    "lon": -118.1544
   },
   {
     "name": "Marsh-Billings-Rockefeller NHP",
@@ -2180,7 +2568,9 @@
     "type": "Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8861,
+    "lon": -77.0442
   },
   {
     "name": "Martin Luther King, Jr. NHP",
@@ -2188,7 +2578,9 @@
     "type": "National Historical Park",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 33.755,
+    "lon": -84.3722
   },
   {
     "name": "Martin Van Buren NHS",
@@ -2196,7 +2588,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.3697,
+    "lon": -73.7042
   },
   {
     "name": "Mary McLeod Bethune Council House NHS",
@@ -2204,7 +2598,9 @@
     "type": "National Historic Site",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.9078,
+    "lon": -77.0303
   },
   {
     "name": "Medgar and Myrlie Evers Home NM",
@@ -2212,7 +2608,9 @@
     "type": "National Monument",
     "state": "Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.341,
+    "lon": -90.2126
   },
   {
     "name": "Mesa Verde National Park",
@@ -2230,7 +2628,9 @@
     "type": "National Scenic River",
     "state": "New Jersey, Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.1538,
+    "lon": -74.9139
   },
   {
     "name": "Mill Springs Battlefield NM",
@@ -2238,7 +2638,9 @@
     "type": "National Monument",
     "state": "Kentucky",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 37.0689,
+    "lon": -84.7361
   },
   {
     "name": "Minidoka NHS",
@@ -2246,7 +2648,9 @@
     "type": "National Historic Site",
     "state": "Idaho, Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 42.6786,
+    "lon": -114.2442
   },
   {
     "name": "Minute Man NHP",
@@ -2265,7 +2669,9 @@
     "type": "National Historic Site",
     "state": "South Dakota",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 43.9311,
+    "lon": -102.1606
   },
   {
     "name": "Mississippi NRRA",
@@ -2273,7 +2679,9 @@
     "type": "National River & Recreation Area",
     "state": "Minnesota",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 44.8733,
+    "lon": -93.0188
   },
   {
     "name": "Missouri NRR",
@@ -2281,7 +2689,9 @@
     "type": "National Recreational River",
     "state": "Nebraska, South Dakota",
     "region": "Midwest, Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 42.8625,
+    "lon": -97.3928
   },
   {
     "name": "Mojave NPRES",
@@ -2289,7 +2699,9 @@
     "type": "National Preserve",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 34.8833,
+    "lon": -115.7167
   },
   {
     "name": "Monocacy NB",
@@ -2297,7 +2709,9 @@
     "type": "National Battlefield",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.3712,
+    "lon": -77.3921
   },
   {
     "name": "Montezuma Castle NM",
@@ -2305,7 +2719,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 34.6111,
+    "lon": -111.8367
   },
   {
     "name": "Moores Creek NB",
@@ -2313,7 +2729,9 @@
     "type": "National Battlefield",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.4582,
+    "lon": -78.1103
   },
   {
     "name": "Morristown NHP",
@@ -2321,7 +2739,9 @@
     "type": "National Historical Park",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7964,
+    "lon": -74.4667
   },
   {
     "name": "Mount Rainier National Park",
@@ -2339,7 +2759,9 @@
     "type": "National Memorial",
     "state": "South Dakota",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 43.8789,
+    "lon": -103.4592
   },
   {
     "name": "Muir Woods NM",
@@ -2347,7 +2769,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.8919,
+    "lon": -122.5708
   },
   {
     "name": "Natchez NHP",
@@ -2355,7 +2779,9 @@
     "type": "National Historical Park",
     "state": "Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 31.5433,
+    "lon": -91.3831
   },
   {
     "name": "Natchez Trace NST",
@@ -2363,7 +2789,9 @@
     "type": "National Scenic Trail",
     "state": "Alabama, Mississippi, Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.6677,
+    "lon": -88.0883
   },
   {
     "name": "Natchez Trace PKWY",
@@ -2398,7 +2826,9 @@
     "type": "National Monument",
     "state": "Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 37.6014,
+    "lon": -110.0137
   },
   {
     "name": "Navajo NM",
@@ -2406,7 +2836,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.6783,
+    "lon": -110.541
   },
   {
     "name": "New Bedford Whaling NHP",
@@ -2433,7 +2865,9 @@
     "type": "National Historical Park",
     "state": "Louisiana",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 29.9631,
+    "lon": -90.0681
   },
   {
     "name": "New Philadelphia NHS",
@@ -2441,7 +2875,9 @@
     "type": "National Historic Site",
     "state": "Illinois",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.6958,
+    "lon": -90.9597
   },
   {
     "name": "New River Gorge NP&PRES",
@@ -2459,7 +2895,9 @@
     "type": "National Historical Park",
     "state": "Idaho, Montana, Oregon, Washington",
     "region": "Pacific NW & Alaska, Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 46.447,
+    "lon": -116.823
   },
   {
     "name": "Nicodemus NHS",
@@ -2467,7 +2905,9 @@
     "type": "National Historic Site",
     "state": "Kansas",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.3908,
+    "lon": -99.6175
   },
   {
     "name": "Ninety Six NHS",
@@ -2475,7 +2915,9 @@
     "type": "National Historic Site",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.1469,
+    "lon": -82.0244
   },
   {
     "name": "Niobrara NSR",
@@ -2483,7 +2925,9 @@
     "type": "National Scenic River",
     "state": "Nebraska",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 42.8833,
+    "lon": -100.3167
   },
   {
     "name": "Noatak NPRES",
@@ -2491,7 +2935,9 @@
     "type": "National Preserve",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 68,
+    "lon": -159.5
   },
   {
     "name": "North Cascades National Park",
@@ -2517,7 +2963,9 @@
     "type": "Wild and Scenic River",
     "state": "Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.0753,
+    "lon": -84.6494
   },
   {
     "name": "Ocmulgee Mounds NHP",
@@ -2525,7 +2973,9 @@
     "type": "National Historical Park",
     "state": "Georgia",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.8367,
+    "lon": -83.6083
   },
   {
     "name": "Olympic National Park",
@@ -2543,7 +2993,9 @@
     "type": "National Monument & Preserve",
     "state": "Oregon",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 42.0956,
+    "lon": -123.4058
   },
   {
     "name": "Organ Pipe Cactus NM",
@@ -2551,7 +3003,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 31.954,
+    "lon": -112.801
   },
   {
     "name": "Ozark NSR",
@@ -2559,7 +3013,9 @@
     "type": "National Scenic Riverway",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 37.1907,
+    "lon": -91.2763
   },
   {
     "name": "Padre Island NS",
@@ -2567,7 +3023,9 @@
     "type": "National Seashore",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 26.9844,
+    "lon": -97.3806
   },
   {
     "name": "Palo Alto Battlefield NHP",
@@ -2575,7 +3033,9 @@
     "type": "National Historical Park",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 26.0214,
+    "lon": -97.4806
   },
   {
     "name": "Paterson Great Falls NHP",
@@ -2583,7 +3043,9 @@
     "type": "National Historical Park",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.9161,
+    "lon": -74.1817
   },
   {
     "name": "Pea Ridge NMP",
@@ -2591,7 +3053,9 @@
     "type": "National Military Park",
     "state": "Arkansas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 36.4542,
+    "lon": -94.0347
   },
   {
     "name": "Pearl Harbor NMEM",
@@ -2599,7 +3063,9 @@
     "type": "National Memorial",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 21.3671,
+    "lon": -157.9386
   },
   {
     "name": "Pecos NHP",
@@ -2607,7 +3073,9 @@
     "type": "National Historical Park",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.55,
+    "lon": -105.6844
   },
   {
     "name": "Pennsylvania Avenue NHS",
@@ -2615,7 +3083,9 @@
     "type": "National Historic Site",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8936,
+    "lon": -77.0239
   },
   {
     "name": "Perry's Victory and International Peace Memorial",
@@ -2623,7 +3093,9 @@
     "type": "Memorial",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.6542,
+    "lon": -82.8114
   },
   {
     "name": "Petersburg NB",
@@ -2631,7 +3103,9 @@
     "type": "National Battlefield",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.2194,
+    "lon": -77.3614
   },
   {
     "name": "Petrified Forest National Park",
@@ -2649,7 +3123,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.1358,
+    "lon": -106.7619
   },
   {
     "name": "Pictured Rocks NL",
@@ -2657,7 +3133,9 @@
     "type": "National Lakeshore",
     "state": "Michigan",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 46.5622,
+    "lon": -86.3125
   },
   {
     "name": "Pinnacles National Park",
@@ -2675,7 +3153,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.8625,
+    "lon": -112.7375
   },
   {
     "name": "Pipestone NM",
@@ -2683,7 +3163,9 @@
     "type": "National Monument",
     "state": "Minnesota",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 44.0133,
+    "lon": -96.325
   },
   {
     "name": "Piscataway Park",
@@ -2691,7 +3173,9 @@
     "type": "Park",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.6786,
+    "lon": -77.0928
   },
   {
     "name": "Point Reyes NS",
@@ -2699,7 +3183,9 @@
     "type": "National Seashore",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 38.0667,
+    "lon": -122.8833
   },
   {
     "name": "Port Chicago Naval Magazine NMEM",
@@ -2707,7 +3193,9 @@
     "type": "National Memorial",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 38.0575,
+    "lon": -122.0297
   },
   {
     "name": "Potomac Heritage NST",
@@ -2723,7 +3211,9 @@
     "type": "National Monument",
     "state": "Louisiana",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 32.6367,
+    "lon": -91.4114
   },
   {
     "name": "President William Jefferson Clinton Birthplace Home NHS",
@@ -2731,7 +3221,9 @@
     "type": "National Historic Site",
     "state": "Arkansas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 33.6672,
+    "lon": -93.5965
   },
   {
     "name": "Prince William Forest Park",
@@ -2739,7 +3231,9 @@
     "type": "Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.5853,
+    "lon": -77.3797
   },
   {
     "name": "Pu'uhonua o Hōnaunau NHP",
@@ -2747,7 +3241,9 @@
     "type": "National Historical Park",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 19.4219,
+    "lon": -155.9103
   },
   {
     "name": "Pu'ukoholā Heiau NHS",
@@ -2755,7 +3251,9 @@
     "type": "National Historic Site",
     "state": "Hawaii",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 20.0267,
+    "lon": -155.82
   },
   {
     "name": "Pullman NHP",
@@ -2763,7 +3261,9 @@
     "type": "National Historical Park",
     "state": "Illinois",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.6972,
+    "lon": -87.6094
   },
   {
     "name": "Rainbow Bridge NM",
@@ -2771,7 +3271,9 @@
     "type": "National Monument",
     "state": "Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 37.0772,
+    "lon": -110.9642
   },
   {
     "name": "Reconstruction Era NHP",
@@ -2779,7 +3281,9 @@
     "type": "National Historical Park",
     "state": "South Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.4325,
+    "lon": -80.6706
   },
   {
     "name": "Redwood National Park",
@@ -2797,7 +3301,9 @@
     "type": "National Battlefield Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 37.4292,
+    "lon": -77.3736
   },
   {
     "name": "Rio Grande WSR",
@@ -2805,7 +3311,9 @@
     "type": "Wild and Scenic River",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 29.4833,
+    "lon": -103.3
   },
   {
     "name": "River Raisin NBP",
@@ -2813,7 +3321,9 @@
     "type": "National Battlefield Park",
     "state": "Michigan",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.9136,
+    "lon": -83.3783
   },
   {
     "name": "Rock Creek Park",
@@ -2821,7 +3331,9 @@
     "type": "Park",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.9575,
+    "lon": -77.045
   },
   {
     "name": "Rocky Mountain National Park",
@@ -2850,7 +3362,9 @@
     "type": "National Historical Park",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.9095,
+    "lon": -122.3574
   },
   {
     "name": "Ross Lake NRA",
@@ -2858,7 +3372,9 @@
     "type": "National Recreation Area",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 48.6731,
+    "lon": -121.2453
   },
   {
     "name": "Russell Cave NM",
@@ -2866,7 +3382,9 @@
     "type": "National Monument",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.9766,
+    "lon": -85.8142
   },
   {
     "name": "Sagamore Hill NHS",
@@ -2874,7 +3392,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.8856,
+    "lon": -73.4975
   },
   {
     "name": "Saguaro National Park",
@@ -2892,7 +3412,9 @@
     "type": "International Historic Site",
     "state": "Maine",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 45.1283,
+    "lon": -67.1331
   },
   {
     "name": "Saint Croix NSR",
@@ -2900,7 +3422,9 @@
     "type": "National Scenic Riverway",
     "state": "Minnesota, Wisconsin",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 45.4159,
+    "lon": -92.6466
   },
   {
     "name": "Saint Paul's Church NHS",
@@ -2908,7 +3432,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.8928,
+    "lon": -73.8258
   },
   {
     "name": "Saint-Gaudens NHP",
@@ -2938,7 +3464,9 @@
     "type": "National Monument",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 34.2597,
+    "lon": -106.0903
   },
   {
     "name": "Salt River Bay NHP & EP",
@@ -2946,7 +3474,9 @@
     "type": "National Historical Park & Ecological Preserve",
     "state": "Virgin Islands",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 17.7747,
+    "lon": -64.7558
   },
   {
     "name": "San Antonio Missions NHP",
@@ -2954,7 +3484,9 @@
     "type": "National Historical Park",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 29.3617,
+    "lon": -98.4803
   },
   {
     "name": "San Francisco Maritime NHP",
@@ -2962,7 +3494,9 @@
     "type": "National Historical Park",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 37.8064,
+    "lon": -122.4236
   },
   {
     "name": "San Juan Island NHP",
@@ -2970,7 +3504,9 @@
     "type": "National Historical Park",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 48.4558,
+    "lon": -122.9856
   },
   {
     "name": "San Juan NHS",
@@ -2978,7 +3514,9 @@
     "type": "National Historic Site",
     "state": "Puerto Rico",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 18.4675,
+    "lon": -66.1103
   },
   {
     "name": "Sand Creek Massacre NHS",
@@ -2986,7 +3524,9 @@
     "type": "National Historic Site",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 38.5408,
+    "lon": -102.5286
   },
   {
     "name": "Santa Monica Mountains NRA",
@@ -2994,7 +3534,9 @@
     "type": "National Recreation Area",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 34.1039,
+    "lon": -118.6025
   },
   {
     "name": "Saratoga NHP",
@@ -3002,7 +3544,9 @@
     "type": "National Historical Park",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.9989,
+    "lon": -73.6375
   },
   {
     "name": "Saugus Iron Works NHS",
@@ -3021,7 +3565,9 @@
     "type": "National Monument",
     "state": "Nebraska",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 41.8347,
+    "lon": -103.7072
   },
   {
     "name": "Sequoia National Park",
@@ -3049,7 +3595,9 @@
     "type": "National Military Park",
     "state": "Mississippi, Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.1367,
+    "lon": -88.3406
   },
   {
     "name": "Sitka NHP",
@@ -3067,7 +3615,9 @@
     "type": "National Lakeshore",
     "state": "Michigan",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 44.85,
+    "lon": -86.05
   },
   {
     "name": "Springfield 1908 Race Riot NM",
@@ -3075,7 +3625,9 @@
     "type": "National Monument",
     "state": "Illinois",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.8047,
+    "lon": -89.6419
   },
   {
     "name": "Springfield Armory NHS",
@@ -3083,7 +3635,9 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.1081,
+    "lon": -72.5817
   },
   {
     "name": "Statue of Liberty NM",
@@ -3091,7 +3645,9 @@
     "type": "National Monument",
     "state": "New Jersey, New York",
     "region": "Mid-Atlantic, North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.6942,
+    "lon": -74.0431
   },
   {
     "name": "Ste. Geneviève NHP",
@@ -3099,7 +3655,9 @@
     "type": "National Historical Park",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 37.977,
+    "lon": -90.0487
   },
   {
     "name": "Steamtown NHS",
@@ -3107,7 +3665,9 @@
     "type": "National Historic Site",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.4073,
+    "lon": -75.6713
   },
   {
     "name": "Stones River NB",
@@ -3115,7 +3675,9 @@
     "type": "National Battlefield",
     "state": "Tennessee",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 35.8761,
+    "lon": -86.4308
   },
   {
     "name": "Stonewall NM",
@@ -3123,7 +3685,9 @@
     "type": "National Monument",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7339,
+    "lon": -74.0022
   },
   {
     "name": "Sunset Crater Volcano NM",
@@ -3131,7 +3695,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.3644,
+    "lon": -111.5036
   },
   {
     "name": "Tallgrass Prairie NPRES",
@@ -3139,7 +3705,9 @@
     "type": "National Preserve",
     "state": "Kansas",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 38.4328,
+    "lon": -96.5589
   },
   {
     "name": "Thaddeus Kosciuszko NMEM",
@@ -3147,7 +3715,9 @@
     "type": "National Memorial",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 39.9434,
+    "lon": -75.1473
   },
   {
     "name": "The White House",
@@ -3166,7 +3736,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7388,
+    "lon": -73.9889
   },
   {
     "name": "Theodore Roosevelt Inaugural NHS",
@@ -3174,7 +3746,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.9015,
+    "lon": -78.8724
   },
   {
     "name": "Theodore Roosevelt Island NMEM",
@@ -3182,7 +3756,9 @@
     "type": "Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8972,
+    "lon": -77.0642
   },
   {
     "name": "Theodore Roosevelt National Park",
@@ -3200,7 +3776,9 @@
     "type": "National Historical Park",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.7836,
+    "lon": -74.2336
   },
   {
     "name": "Thomas Jefferson Memorial",
@@ -3208,7 +3786,9 @@
     "type": "Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8814,
+    "lon": -77.0365
   },
   {
     "name": "Thomas Stone NHS",
@@ -3216,7 +3796,9 @@
     "type": "National Historic Site",
     "state": "Maryland",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.5312,
+    "lon": -77.0392
   },
   {
     "name": "Timpanogos Cave NM",
@@ -3224,7 +3806,9 @@
     "type": "National Monument",
     "state": "Utah",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 40.4406,
+    "lon": -111.7094
   },
   {
     "name": "Timucuan EHP",
@@ -3232,7 +3816,9 @@
     "type": "Ecological & Historic Preserve",
     "state": "Florida",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 30.4545,
+    "lon": -81.4499
   },
   {
     "name": "Tonto NM",
@@ -3240,7 +3826,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 33.6569,
+    "lon": -111.0944
   },
   {
     "name": "Tule Lake NM",
@@ -3248,7 +3836,9 @@
     "type": "National Monument",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 41.8894,
+    "lon": -121.3747
   },
   {
     "name": "Tule Springs Fossil Beds NM",
@@ -3256,7 +3846,9 @@
     "type": "National Monument",
     "state": "Nevada",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 36.371,
+    "lon": -115.306
   },
   {
     "name": "Tumacácori NHP",
@@ -3264,7 +3856,9 @@
     "type": "National Historical Park",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 31.5681,
+    "lon": -111.0506
   },
   {
     "name": "Tupelo NB",
@@ -3272,7 +3866,9 @@
     "type": "National Battlefield",
     "state": "Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 34.2557,
+    "lon": -88.737
   },
   {
     "name": "Tuskegee Airmen NHS",
@@ -3280,7 +3876,9 @@
     "type": "National Historic Site",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.4592,
+    "lon": -85.68
   },
   {
     "name": "Tuskegee Institute NHS",
@@ -3288,7 +3886,9 @@
     "type": "National Historic Site",
     "state": "Alabama",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.4303,
+    "lon": -85.7078
   },
   {
     "name": "Tuzigoot NM",
@@ -3296,7 +3896,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 34.7709,
+    "lon": -112.026
   },
   {
     "name": "Ulysses S. Grant NHS",
@@ -3304,7 +3906,9 @@
     "type": "National Historic Site",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 38.5511,
+    "lon": -90.3519
   },
   {
     "name": "Upper Delaware S&RR",
@@ -3312,7 +3916,9 @@
     "type": "Scenic & Recreational River",
     "state": "New York, Pennsylvania",
     "region": "Mid-Atlantic, North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.6401,
+    "lon": -75.0586
   },
   {
     "name": "Valles Caldera NPRES",
@@ -3320,7 +3926,9 @@
     "type": "National Preserve",
     "state": "New Mexico",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.9,
+    "lon": -106.5333
   },
   {
     "name": "Valley Forge NHP",
@@ -3328,7 +3936,9 @@
     "type": "National Historical Park",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 40.0969,
+    "lon": -75.4389
   },
   {
     "name": "Vanderbilt Mansion NHS",
@@ -3336,7 +3946,9 @@
     "type": "National Historic Site",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 41.7961,
+    "lon": -73.9419
   },
   {
     "name": "Vicksburg NMP",
@@ -3344,7 +3956,9 @@
     "type": "National Military Park",
     "state": "Mississippi",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 32.3653,
+    "lon": -90.8422
   },
   {
     "name": "Vietnam Veterans Memorial",
@@ -3363,7 +3977,9 @@
     "type": "National Monument",
     "state": "Virgin Islands",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 18.3061,
+    "lon": -64.7269
   },
   {
     "name": "Virgin Islands National Park",
@@ -3391,7 +4007,9 @@
     "type": "National Monument",
     "state": "Texas",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 31.606,
+    "lon": -97.175
   },
   {
     "name": "Walnut Canyon NM",
@@ -3399,7 +4017,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.1658,
+    "lon": -111.5019
   },
   {
     "name": "War in the Pacific NHP",
@@ -3407,7 +4027,9 @@
     "type": "National Historical Park",
     "state": "Guam",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 13.4225,
+    "lon": 144.6757
   },
   {
     "name": "Washington Monument",
@@ -3426,7 +4048,9 @@
     "type": "National Historic Site",
     "state": "Oklahoma",
     "region": "Southwest",
-    "visited": false
+    "visited": false,
+    "lat": 35.6175,
+    "lon": -99.7003
   },
   {
     "name": "Weir Farm NHP",
@@ -3445,7 +4069,9 @@
     "type": "National Recreation Area",
     "state": "California",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 40.6253,
+    "lon": -122.5594
   },
   {
     "name": "White Sands National Park",
@@ -3463,7 +4089,9 @@
     "type": "National Historic Site",
     "state": "Washington",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 46.04,
+    "lon": -118.4614
   },
   {
     "name": "William Howard Taft NHS",
@@ -3471,7 +4099,9 @@
     "type": "National Historic Site",
     "state": "Ohio",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 39.1197,
+    "lon": -84.5086
   },
   {
     "name": "Wilson's Creek NB",
@@ -3479,7 +4109,9 @@
     "type": "National Battlefield",
     "state": "Missouri",
     "region": "Midwest",
-    "visited": false
+    "visited": false,
+    "lat": 37.1156,
+    "lon": -93.42
   },
   {
     "name": "Wind Cave National Park",
@@ -3497,7 +4129,9 @@
     "type": "Park",
     "state": "Virginia",
     "region": "Mid-Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 38.9369,
+    "lon": -77.2619
   },
   {
     "name": "Women's Rights NHP",
@@ -3505,7 +4139,9 @@
     "type": "National Historical Park",
     "state": "New York",
     "region": "North Atlantic",
-    "visited": false
+    "visited": false,
+    "lat": 42.9108,
+    "lon": -76.8014
   },
   {
     "name": "World War I Memorial",
@@ -3524,7 +4160,9 @@
     "type": "National Memorial",
     "state": "District of Columbia",
     "region": "National Capital",
-    "visited": false
+    "visited": false,
+    "lat": 38.8894,
+    "lon": -77.0406
   },
   {
     "name": "Wrangell-St. Elias NP&PRES",
@@ -3542,7 +4180,9 @@
     "type": "National Memorial",
     "state": "North Carolina",
     "region": "Southeast",
-    "visited": false
+    "visited": false,
+    "lat": 36.0143,
+    "lon": -75.6679
   },
   {
     "name": "Wupatki NM",
@@ -3550,7 +4190,9 @@
     "type": "National Monument",
     "state": "Arizona",
     "region": "Western",
-    "visited": false
+    "visited": false,
+    "lat": 35.5575,
+    "lon": -111.3958
   },
   {
     "name": "Yellowstone National Park",
@@ -3578,7 +4220,9 @@
     "type": "National Monument",
     "state": "Colorado",
     "region": "Rocky Mountain",
-    "visited": false
+    "visited": false,
+    "lat": 37.2503,
+    "lon": -108.6864
   },
   {
     "name": "Yukon-Charley Rivers NPRES",
@@ -3586,7 +4230,9 @@
     "type": "National Preserve",
     "state": "Alaska",
     "region": "Pacific NW & Alaska",
-    "visited": false
+    "visited": false,
+    "lat": 65,
+    "lon": -143.5
   },
   {
     "name": "Zion National Park",
