@@ -1,4 +1,5 @@
 import MtjSensorDemo from "@/components/research/MtjSensorDemo";
+import VortexSensorDemo from "@/components/research/VortexSensorDemo";
 
 export default function ResearchPage() {
   return (
@@ -19,6 +20,17 @@ export default function ResearchPage() {
           the barrier depends on the angle between them — try it below.
         </p>
         <MtjSensorDemo />
+      </article>
+
+      <article className="space-y-3">
+        <h2 className="text-lg font-semibold">Vortex-state sensing</h2>
+        <p className="max-w-2xl text-gray-600">
+          Rather than a single macrospin, a vortex-state free layer curls its in-plane
+          magnetization all the way around a central core — this is a top-down view of the disk.
+          An applied field doesn't rotate the whole texture; it displaces the core instead, and
+          not in the direction you'd guess.
+        </p>
+        <VortexSensorDemo />
       </article>
     </section>
   );

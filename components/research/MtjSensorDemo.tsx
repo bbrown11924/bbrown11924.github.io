@@ -1,5 +1,5 @@
 "use client";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import {
   R_PARALLEL,
   R_ANTIPARALLEL,
@@ -8,6 +8,8 @@ import {
   resistance,
   normalizedConductance,
 } from "@/lib/mtj";
+import { useFieldDrag } from "./useFieldDrag";
+import MomentArrow from "./MomentArrow";
 
 // Layout, in SVG user units (viewBox is 0 0 640 500).
 const ORIGIN = { x: 320, y: 78 };
@@ -17,46 +19,6 @@ const FREE = { cy: 178, w: 260, h: 54 };
 const BARRIER = { cy: 214, w: 260, h: 16 };
 const PINNED = { cy: 250, w: 260, h: 54 };
 const PIN_LAYER = { cy: 286, w: 260, h: 16 };
-
-function clientToSvgPoint(svg: SVGSVGElement, clientX: number, clientY: number) {
-  const pt = svg.createSVGPoint();
-  pt.x = clientX;
-  pt.y = clientY;
-  const ctm = svg.getScreenCTM();
-  if (!ctm) return { x: 0, y: 0 };
-  const p = pt.matrixTransform(ctm.inverse());
-  return { x: p.x, y: p.y };
-}
-
-function MomentArrow({ cx, cy, angleRad, length, color, dashed = false }: {
-  cx: number;
-  cy: number;
-  angleRad: number;
-  length: number;
-  color: string;
-  dashed?: boolean;
-}) {
-  // angleRad measured counterclockwise from +x (standard math convention);
-  // flip the y-component for SVG's y-down screen space.
-  const dx = Math.cos(angleRad) * length;
-  const dy = -Math.sin(angleRad) * length;
-  const x1 = cx - dx / 2;
-  const y1 = cy - dy / 2;
-  const x2 = cx + dx / 2;
-  const y2 = cy + dy / 2;
-  const headAngle = Math.atan2(-dy, dx);
-  const headLen = 10;
-  const hx1 = x2 - headLen * Math.cos(headAngle - 0.5);
-  const hy1 = y2 + headLen * Math.sin(headAngle - 0.5);
-  const hx2 = x2 - headLen * Math.cos(headAngle + 0.5);
-  const hy2 = y2 + headLen * Math.sin(headAngle + 0.5);
-  return (
-    <g stroke={color} fill={color} strokeWidth={4} strokeLinecap="round">
-      <line x1={x1} y1={y1} x2={x2} y2={y2} strokeDasharray={dashed ? "2 5" : undefined} />
-      <polygon points={`${x2},${y2} ${hx1},${hy1} ${hx2},${hy2}`} stroke="none" />
-    </g>
-  );
-}
 
 function RHCurve({ h }: { h: number }) {
   const w = 220;
@@ -96,39 +58,7 @@ function RHCurve({ h }: { h: number }) {
 
 export default function MtjSensorDemo() {
   const svgRef = useRef<SVGSVGElement>(null);
-  const [drag, setDrag] = useState({ x: 0, y: 0 });
-  const draggingRef = useRef(false);
-
-  const onPointerDown = useCallback((e: React.PointerEvent) => {
-    draggingRef.current = true;
-    try {
-      (e.target as Element).setPointerCapture?.(e.pointerId);
-    } catch {
-      // Pointer capture is a nice-to-have (keeps dragging smooth if the
-      // pointer leaves the handle); harmless to skip if unsupported here.
-    }
-  }, []);
-
-  useEffect(() => {
-    function onMove(e: PointerEvent) {
-      if (!draggingRef.current || !svgRef.current) return;
-      const p = clientToSvgPoint(svgRef.current, e.clientX, e.clientY);
-      const dx = p.x - ORIGIN.x;
-      const dy = p.y - ORIGIN.y;
-      const dist = Math.hypot(dx, dy);
-      const scale = dist > MAX_DRAG ? MAX_DRAG / dist : 1;
-      setDrag({ x: dx * scale, y: dy * scale });
-    }
-    function onUp() {
-      draggingRef.current = false;
-    }
-    window.addEventListener("pointermove", onMove);
-    window.addEventListener("pointerup", onUp);
-    return () => {
-      window.removeEventListener("pointermove", onMove);
-      window.removeEventListener("pointerup", onUp);
-    };
-  }, []);
+  const { drag, onPointerDown } = useFieldDrag(svgRef, ORIGIN, MAX_DRAG);
 
   // Only the component along the pinned-layer axis (x) matters — see lib/mtj.ts.
   const h = (drag.x / MAX_DRAG) * 1.8;
