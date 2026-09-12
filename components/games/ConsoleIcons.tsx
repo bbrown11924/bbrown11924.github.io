@@ -7,53 +7,53 @@ import type { ConsoleId } from "@/lib/consoles";
 // wrapper in the page.
 
 function Nes() {
+  // One body shape with the cartridge-door color layered on top of its own
+  // top edge (same rx, same width) rather than two separately-rounded
+  // rectangles that don't quite line up.
   return (
-    <svg viewBox="0 0 200 110" className="h-full w-full">
-      <rect x={14} y={54} width={172} height={38} rx={5} fill="#e7e5e4" stroke="#44403c" strokeWidth={2.5} />
-      <rect x={14} y={30} width={172} height={30} rx={5} fill="#d6d3d1" stroke="#44403c" strokeWidth={2.5} />
-      <rect x={40} y={34} width={120} height={12} rx={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1.5} />
-      <rect x={163} y={33} width={10} height={14} rx={1.5} fill="#a8a29e" stroke="#44403c" strokeWidth={1.5} />
-      <rect x={28} y={70} width={16} height={9} rx={2} fill="#fff" stroke="#44403c" strokeWidth={1.5} />
-      <rect x={52} y={70} width={16} height={9} rx={2} fill="#fff" stroke="#44403c" strokeWidth={1.5} />
-      <circle cx={140} cy={74} r={5} fill="#b91c1c" stroke="#44403c" strokeWidth={1.5} />
-      <rect x={158} y={70} width={18} height={8} rx={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1.5} />
+    <svg viewBox="0 0 200 100" className="h-full w-full">
+      <rect x={16} y={26} width={168} height={56} rx={7} fill="#e7e5e4" stroke="#44403c" strokeWidth={2.5} />
+      <path d="M16 33 a7 7 0 0 1 7 -7 h154 a7 7 0 0 1 7 7 v12 H16 Z" fill="#d6d3d1" stroke="#44403c" strokeWidth={2} />
+      <rect x={38} y={29} width={112} height={9} rx={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1.3} />
+      <rect x={156} y={28} width={9} height={12} rx={1.5} fill="#a8a29e" stroke="#44403c" strokeWidth={1.3} />
+      <rect x={30} y={62} width={15} height={8} rx={2} fill="#fff" stroke="#44403c" strokeWidth={1.3} />
+      <rect x={52} y={62} width={15} height={8} rx={2} fill="#fff" stroke="#44403c" strokeWidth={1.3} />
+      <circle cx={132} cy={66} r={4.5} fill="#b91c1c" stroke="#44403c" strokeWidth={1.3} />
+      <rect x={148} y={62} width={16} height={7} rx={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1.3} />
     </svg>
   );
 }
 
 function GameBoyAdvance() {
+  // The original 2001 horizontal GBA — a simple rounded lozenge, not the
+  // clamshell SP, so no hinge or fancy silhouette needed.
   return (
-    <svg viewBox="0 0 200 110" className="h-full w-full">
-      <path
-        d="M20 30 Q20 16 36 16 H164 Q180 16 180 30 V70 Q180 92 156 92 H120 Q112 92 108 98 Q104 104 96 104 Q88 104 84 98 Q80 92 72 92 H44 Q20 92 20 70 Z"
-        fill="#e7e5e4"
-        stroke="#44403c"
-        strokeWidth={2.5}
-      />
-      <rect x={58} y={28} width={62} height={42} rx={4} fill="#78716c" stroke="#44403c" strokeWidth={2} />
-      <rect x={64} y={34} width={50} height={30} rx={2} fill="#bbf7d0" stroke="#44403c" strokeWidth={1.5} />
-      <circle cx={128} cy={32} r={2.5} fill="#b91c1c" />
-      <g stroke="#44403c" strokeWidth={1.5} fill="#a8a29e">
-        <rect x={30} y={76} width={8} height={20} rx={1.5} />
-        <rect x={22} y={84} width={24} height={8} rx={1.5} />
+    <svg viewBox="0 0 200 100" className="h-full w-full">
+      <rect x={14} y={18} width={172} height={64} rx={24} fill="#e7e5e4" stroke="#44403c" strokeWidth={2.5} />
+      <rect x={48} y={28} width={60} height={44} rx={4} fill="#78716c" stroke="#44403c" strokeWidth={2} />
+      <rect x={54} y={34} width={48} height={32} rx={2} fill="#bbf7d0" stroke="#44403c" strokeWidth={1.3} />
+      <circle cx={116} cy={26} r={2.3} fill="#b91c1c" />
+      <g stroke="#44403c" strokeWidth={1.3} fill="#a8a29e">
+        <rect x={24} y={62} width={7} height={18} rx={1.3} />
+        <rect x={17} y={69} width={21} height={7} rx={1.3} />
       </g>
-      <circle cx={155} cy={82} r={8} fill="#f5f5f4" stroke="#44403c" strokeWidth={1.5} />
-      <circle cx={168} cy={70} r={8} fill="#f5f5f4" stroke="#44403c" strokeWidth={1.5} />
-      <rect x={78} y={82} width={16} height={5} rx={2.5} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
-      <rect x={98} y={82} width={16} height={5} rx={2.5} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
+      <circle cx={148} cy={68} r={7} fill="#f5f5f4" stroke="#44403c" strokeWidth={1.3} />
+      <circle cx={163} cy={56} r={7} fill="#f5f5f4" stroke="#44403c" strokeWidth={1.3} />
+      <rect x={70} y={76} width={14} height={4.5} rx={2.2} fill="#a8a29e" stroke="#44403c" strokeWidth={0.8} />
+      <rect x={88} y={76} width={14} height={4.5} rx={2.2} fill="#a8a29e" stroke="#44403c" strokeWidth={0.8} />
     </svg>
   );
 }
 
 function Wii() {
   return (
-    <svg viewBox="0 0 100 140" className="h-full w-full">
-      <rect x={13} y={92} width={74} height={9} rx={3} fill="#d6d3d1" stroke="#44403c" strokeWidth={2} />
-      <rect x={28} y={10} width={44} height={86} rx={7} fill="#fafaf9" stroke="#44403c" strokeWidth={2.5} />
-      <rect x={46} y={20} width={8} height={62} rx={3} fill="#e7e5e4" stroke="#44403c" strokeWidth={1.5} />
-      <circle cx={50} cy={86} r={2.5} fill="#38bdf8" />
-      <circle cx={40} cy={88} r={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
-      <circle cx={60} cy={88} r={2} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
+    <svg viewBox="0 0 100 150" className="h-full w-full">
+      <rect x={12} y={102} width={76} height={10} rx={3} fill="#d6d3d1" stroke="#44403c" strokeWidth={2} />
+      <rect x={26} y={10} width={48} height={96} rx={8} fill="#fafaf9" stroke="#44403c" strokeWidth={2.5} />
+      <rect x={45} y={22} width={10} height={70} rx={4} fill="#e7e5e4" stroke="#44403c" strokeWidth={1.5} />
+      <circle cx={50} cy={96} r={3} fill="#38bdf8" />
+      <circle cx={38} cy={98} r={2.3} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
+      <circle cx={62} cy={98} r={2.3} fill="#a8a29e" stroke="#44403c" strokeWidth={1} />
     </svg>
   );
 }
