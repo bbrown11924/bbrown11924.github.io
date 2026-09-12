@@ -22,7 +22,7 @@ the doc for editing publications, talks, pages, etc. without touching code.
 app/                Routes (one folder per page, Next.js file-based routing)
 components/         Shared React components
 content/            Editable Markdown content (see CONTENT.md)
-data/               Editable JSON content: publications.json, talks.json, parks.json
+data/               Editable JSON content: publications.json, talks.json, nps-units.json
 lib/                Content-loading helpers (lib/content.ts)
 site.config.ts       Site-wide settings: name, nav, contact links
 ```
