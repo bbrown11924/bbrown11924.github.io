@@ -1,0 +1,100 @@
+# Updating this site
+
+This is a static site (Next.js, exported to plain HTML/CSS/JS — see
+[README.md](README.md) for the tech overview). Most day-to-day updates don't
+touch any page code — you edit a file in `content/` or `data/` and the
+relevant page picks it up automatically.
+
+There are three kinds of content, matched to three kinds of files:
+
+## 1. Lists of structured items → JSON in `data/`
+
+Use this for things that are basically a table: publications, talks. Each
+entry is one object in a JSON array.
+
+- [`data/publications.json`](data/publications.json) — add a new paper by
+  copying an existing entry and editing the fields (`title`, `authors`,
+  `venue`, `year`, `doi`, `url_pdf`, `tags`, `abstract`, `bibtex`, ...).
+- [`data/talks.json`](data/talks.json) — same idea for talks/posters
+  (`title`, `type`, `event`, `location`, `date` as `YYYY`, `YYYY-MM`, or
+  `YYYY-MM-DD` — whatever precision you actually know, `slides_url`,
+  `video_url`).
+- [`data/parks.json`](data/parks.json) — the National Parks tracker (under
+  the "Personal" nav menu). Set `"visited": true` on a park to color its pin
+  green on the map and mark it in the list; add `"dateVisited"` if you want
+  to record when. Seeded with all 63 official National Parks — to track a
+  different kind of NPS unit (a National Historical Park, Monument, etc.),
+  add an entry with its own `name`/`type`/`state`/`lat`/`lon` (look up
+  coordinates on the park's NPS.gov page or Wikipedia); it'll show up in the
+  list automatically, and on the map too if it falls within the continental
+  US/Alaska/Hawaii projection.
+
+Just keep it valid JSON (matching commas, quotes). If a page shows nothing or
+errors after an edit, that's almost always a stray/missing comma.
+
+## 2. One-off prose pages → Markdown in `content/pages/`
+
+Use this for pages that are mostly text: Home, CV, Contact. Each file has a
+`---`-fenced frontmatter block for structured fields, followed by Markdown
+body text.
+
+- [`content/pages/home.md`](content/pages/home.md) — headline, subtitle, and
+  the two homepage buttons, plus a short bio.
+- [`content/pages/cv.md`](content/pages/cv.md) — the whole CV as Markdown
+  (headings, bullet lists, and tables all work).
+- [`content/pages/contact.md`](content/pages/contact.md) — the blurb above
+  your contact links.
+
+## 3. Collections of similar pages → Markdown files in `content/<name>/`
+
+Use this when you have several similar items that each deserve their own
+page — right now that's instruments, in `content/instruments/`. Each `.md`
+file there becomes one card on `/instruments` *and* its own detail page at
+`/instruments/<filename>`.
+
+To add an instrument: copy
+[`content/instruments/cryogenic-magnetometer.md`](content/instruments/cryogenic-magnetometer.md)
+to a new filename, edit the frontmatter (`title`, `summary`, `tags`, `order`)
+and the body. To remove one, delete the file. This is a good pattern to reuse
+later for e.g. "Projects" or "Courses" — see below.
+
+## Global settings: name, nav bar, contact links
+
+[`site.config.ts`](site.config.ts) is the one place your name, tagline, nav
+bar entries, and social/contact links live. Changing it updates the nav bar,
+page titles, footer, and Contact page everywhere at once.
+
+The nav bar has two parts: `site.nav` (professional pages, shown as normal
+links) and `site.personalNav` (anything more informal — currently just
+National Parks — shown as a "Personal" dropdown so the main bar stays
+uncluttered). Add more entries to either array the same way; a second
+personal page just needs another `{ href, label }` in `personalNav.items`.
+
+## Adding a brand-new, differently-shaped page
+
+Because this is Next.js's file-based routing, a new page is just a new
+folder:
+
+1. Create `app/<route>/page.tsx` (copy the simplest existing one, e.g.
+   [`app/contact/page.tsx`](app/contact/page.tsx), as a starting point).
+2. Build whatever that page needs — it can be completely different from
+   every other page (a photo gallery, an embedded map, a custom layout —
+   nothing about the framework forces pages to look alike).
+3. If it should appear in the nav bar, add `{ href: "/<route>", label: "..." }`
+   to `site.config.ts`.
+4. If it's a *collection* of similar sub-pages (like Instruments), use
+   `getCollection("<name>")` from [`lib/content.ts`](lib/content.ts) with a
+   new `content/<name>/` folder, and add a matching
+   `app/<route>/[slug]/page.tsx` (copy
+   [`app/instruments/[slug]/page.tsx`](app/instruments/%5Bslug%5D/page.tsx)).
+
+## Running and shipping it
+
+```bash
+npm run dev      # local dev server at http://localhost:3000, hot-reloads on save
+npm run build    # type-checks + produces the static site in out/
+```
+
+`npm run build` is what you'd point GitHub Pages (or any static host) at —
+it needs no server, just the files in `out/`. We haven't wired up deployment
+yet; that's a separate step for when you're ready to publish.

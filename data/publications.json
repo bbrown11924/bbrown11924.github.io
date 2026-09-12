@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Approaches for single channel large area silicon photomultiplier array readout",
+    "authors": [
+      "C. M. Lavelle",
+      "W. Shanks",
+      "C. Chiang",
+      "M. Nichols",
+      "J. Osborne, Jr.",
+      "A. Herschelman",
+      "B. Brown",
+      "M. Cho"
+    ],
+    "venue": "AIP Advances",
+    "year": 2019,
+    "doi": "10.1063/1.5088503",
+    "url_pdf": "https://aip.scitation.org/doi/pdf/10.1063/1.5088503",
+    "open_access": true,
+    "tags": ["SiPM", "Gamma spectroscopy", "Scintillators", "Readout"],
+    "abstract": "We present the results of experiments applying a large area tiled array of silicon photomultipliers (SiPM) to gamma ray spectroscopy with 50.8 mm diameter NaI(Tl) and CsI(Tl) scintillators and 25.4 mm diameter CeBr3. These scintillators are many times larger than an individual SiPM, the largest of which are 36 mm2 at present. This work compares two methods of summing 64 SiPMs into a single output signal for use with standard charge integration electronics. The methods are a straightforward passive method, which simply combines all anode and cathodes together, and an active method, which employs high bandwidth op-amps in a summing topology. Comparisons are also made to a high quantum efficiency photomultiplier tube (PMT) for both resolution and pulse shape. Resolution and noise floor are satisfactorily comparable to the PMT from 21 keV to 2614 keV. The passive method provides the most straightforward approach, and slightly better energy resolution than the active method. The active method shows a substantially faster pulse rise time and undistorted fall time compared to the passive method.",
+    "bibtex": "@article{Lavelle2019SiPM, title={Approaches for single channel large area silicon photomultiplier array readout}, author={Lavelle, C. M. and Shanks, W. and Chiang, C. and Nichols, M. and Osborne, Jr., J. and Herschelman, A. and Brown, B. and Cho, M.}, journal={AIP Advances}, volume={9}, number={3}, pages={035123}, year={2019}, doi={10.1063/1.5088503}}"
+  },
+  {
+    "title": "High magnetic sensitivity via large-diameter-vortex stability in magnetic tunnel junctions through controlled anisotropy",
+    "authors": [
+      "Benjamin J. Brown",
+      "Liam K. Mitchell",
+      "Vineetha S. Bheemarasetty",
+      "H. Minh Cao",
+      "Justin N. Kingsnorth",
+      "Jerome N. Sanes",
+      "Gang Xiao"
+    ],
+    "venue": "Physical Review Applied",
+    "year": 2025,
+    "doi": "10.1103/41by-5p3c",
+    "url_pdf": "https://sites.brown.edu/xiaolab/files/2025/09/41by-5p3c.pdf",
+    "open_access": true,
+    "tags": ["MTJ", "Vortex state", "Magnetic sensing", "Anisotropy"],
+    "abstract": "Magnetic-annealing-induced uniaxial anisotropy is shown to influence vortex formation in magnetic tunnel junction (MTJ) free layers of various diameters, with micromagnetic simulations demonstrating a threshold for single-vortex formation that exhibits an inverse diameter dependence. Angular M-H curves were measured for MTJ multilayers under different annealing conditions, and reveal that a two-step orthogonal magnetic annealing process reduces the uniaxial anisotropy in the free layer from 1040 J/m3 to 130 J/m3. This reduction in anisotropy allows for vortex formation in MTJ sensors as large as 40 μm. Increasing the MTJ diameter leads to an enhancement of magnetic sensitivity up to 2.80%/Oe with the conventional definition, or 1.78%/Oe via an ac sensitivity measurement that verifies the nonhysteretic response. This result demonstrates an eightfold increase in vortex-MTJ sensitivity, compared with standard MTJs that have diameters limited to 5 μm, and this work provides the foundation for highly sensitive vortex-MTJ-based sensors for applications that require a nonhysteretic, ultrasensitive response.",
+    "bibtex": "@article{Brown2025VortexDiameter, title={High magnetic sensitivity via large-diameter-vortex stability in magnetic tunnel junctions through controlled anisotropy}, author={Brown, Benjamin J. and Mitchell, Liam K. and Bheemarasetty, Vineetha S. and Cao, H. Minh and Kingsnorth, Justin N. and Sanes, Jerome N. and Xiao, Gang}, journal={Physical Review Applied}, volume={24}, number={3}, pages={034063}, year={2025}, doi={10.1103/41by-5p3c}}"
+  },
+  {
+    "title": "Annealing and thickness optimisation in CoZrNb and FeSiBNbCu thin films for low-frequency magnetic flux concentrators",
+    "authors": [
+      "H. Minh Cao",
+      "Benjamin J. Brown",
+      "Vineetha S. Bheemarasetty",
+      "Gang Xiao"
+    ],
+    "venue": "Journal of Magnetism and Magnetic Materials",
+    "year": 2025,
+    "doi": "10.1016/j.jmmm.2025.173621",
+    "url_pdf": "https://sites.brown.edu/xiaolab/files/2025/11/jmmm_635_173621.pdf",
+    "open_access": true,
+    "tags": ["Flux concentrators", "Thin films", "Soft magnetic materials", "Annealing"],
+    "abstract": "To develop high-performance soft magnetic flux concentrator (MFC) materials, which are crucial for amplifying magnetic fields through the enhancement of local magnetic flux density, two ferromagnetic alloys, Co88Zr4Nb8 (CZN) and Fe73.5Si15.5B7Nb3Cu1 (Finemet®), were investigated. Thin films with thicknesses ranging from 100 to 1200 nm were deposited by magnetron sputtering and annealed at various temperatures. CZN demonstrated optimal soft magnetic properties in its as-grown amorphous configuration. In contrast, annealing significantly improved Finemet's performance between 200°C and 500°C, where its nanocrystalline structure yielded ultra-soft behaviour. Additionally, thickness dependence revealed distinct trends in magnetic behaviour for both materials. For CZN, magnetic softness was best achieved at a larger thickness (1200 nm), while for Finemet, an optimum was observed at an intermediate thickness (800 nm). Thus, CZN is suited for cases where annealing is impractical, such as CMOS-compatible or MEMS-integrated sensors, as its properties are optimised without further processing, particularly in thicker films. Finemet, however, requires controlled annealing to obtain soft magnetic behaviour, making it suitable for applications that demand maximum permeability and can tolerate higher temperatures. Both materials demonstrate excellent potential for MFC integration in magnetic sensing and spintronic platforms. The optimal choice, however, depends on the thermal budget, processing conditions, and the performance metrics prioritised in the target application.",
+    "bibtex": "@article{Cao2025FluxConcentrators, title={Annealing and thickness optimisation in CoZrNb and FeSiBNbCu thin films for low-frequency magnetic flux concentrators}, author={Cao, H. Minh and Brown, Benjamin J. and Bheemarasetty, Vineetha S. and Xiao, Gang}, journal={Journal of Magnetism and Magnetic Materials}, volume={635}, pages={173621}, year={2025}, doi={10.1016/j.jmmm.2025.173621}}"
+  },
+  {
+    "title": "Progress towards integration of MTJ devices with cryo-CMOS readout circuitry for magnetic field sensing",
+    "authors": [
+      "Z. C. Adamson",
+      "Liam K. Mitchell",
+      "Benjamin J. Brown",
+      "William R. Patterson",
+      "Gang Xiao",
+      "A. Zaslavsky"
+    ],
+    "venue": "Solid-State Electronics",
+    "year": 2026,
+    "doi": "10.1016/j.sse.2025.109312",
+    "url_pdf": "https://bpb-us-w2.wpmucdn.com/sites.brown.edu/dist/c/328/files/2025/12/2026SSEv232a109312.pdf",
+    "open_access": true,
+    "tags": ["MTJ", "Cryo-CMOS", "Readout electronics", "Vortex tracking"],
+    "abstract": "This paper reports on progress in cryogenic magnetic field sensing using vortex magnetic tunnel junctions (MTJs) at T < 10 K. The MTJ magnetoresistive signal is amplified using a wire-bonded foundry-fabricated 180 nm-process cryo-CMOS sense amplifier, providing ~100 mG single-shot detectivity. Functional MTJ sensor deposition results on a true CMOS surface with fill exclusion are also presented. The aim is to make a magnetic field camera for tracking flux vortex motion in superconducting films, leading to optimized VLSI superconducting electronic (SCE) circuitry.",
+    "bibtex": "@article{Adamson2026CryoCMOS, title={Progress towards integration of MTJ devices with cryo-CMOS readout circuitry for magnetic field sensing}, author={Adamson, Z. C. and Mitchell, Liam K. and Brown, Benjamin J. and Patterson, William R. and Xiao, Gang and Zaslavsky, A.}, journal={Solid-State Electronics}, volume={232}, pages={109312}, year={2026}, doi={10.1016/j.sse.2025.109312}}"
+  },
+  {
+    "title": "Shubnikov–de Haas oscillations in half-metallic ferromagnetic CrO2 epitaxial films",
+    "authors": [
+      "Vineetha S. Bheemarasetty",
+      "David T. Plouff",
+      "Xinhao Wang",
+      "Benjamin J. Brown",
+      "H. Minh Cao",
+      "John Q. Xiao",
+      "Gang Xiao"
+    ],
+    "venue": "Phys. Rev. B",
+    "year": 2025,
+    "doi": "10.1103/v73x-5ptd",
+    "url_pdf": "https://sites.brown.edu/xiaolab/files/2025/06/v73x-5ptd.pdf",
+    "open_access": true,
+    "tags": ["CrO2", "Shubnikov–de Haas", "Half-metal", "Magnetotransport"],
+    "abstract": "We present a study of the low-temperature, high-field magnetotransport behavior of epitaxially grown CrO2 thin films on (100) TiO2 substrates. Electron transport measurements confirm high sample quality, with a residual resistivity ratio as large as 45. A logarithmic fit of the low-temperature regime yields a T^4.5 power law, indicative of the elusive double-magnon scattering in half-metallic ferromagnets. Angle-dependent anisotropic magnetoresistance (AMR) measurements reveal a large projected density of states along [001] with a maximum AMR value of 2.4%. Pronounced, axis-dependent Shubnikov–de Haas (SdH) oscillations are observed in the longitudinal magnetoresistance (MR), with discrete Landau levels mapped at various tilt angles of the magnetic field. Their angular dependence follows a 1/cos⁡θ relation pointing to a highly anisotropic Fermi surface, and amplitude scaling adheres closely to the thermodynamic Lifshitz-Kosevich formalism. The out-of-plane MR reaches 6.58%, the largest reported for CrO2 thin films. Notably, this study presents an observation of SdH oscillations in a half-metallic oxide with near-perfect spin polarization, a significant advancement in the field of spintronics.",
+    "bibtex": "@article{Bheemarasetty2025CrO2SdH, title={Shubnikov–de Haas oscillations in half-metallic ferromagnetic CrO2 epitaxial films}, author={Bheemarasetty, Vineetha S. and Plouff, David T. and Wang, Xinhao and Brown, Benjamin J. and Cao, H. Minh and Xiao, John Q. and Xiao, Gang}, journal={Phys. Rev. B}, volume={111}, pages={214440}, year={2025}, doi={10.1103/v73x-5ptd}}"
+  },
+  {
+    "title": "Contrasting uniaxial and vortex-state magnetic tunnel junction sensors: sensitivity and tunnel magnetoresistance at low temperatures",
+    "authors": [
+      "Liam K. Mitchell",
+      "Benjamin J. Brown",
+      "Z. C. Adamson",
+      "A. Zaslavsky",
+      "Gang Xiao"
+    ],
+    "venue": "Journal of Physics D: Applied Physics",
+    "year": 2026,
+    "doi": "10.1088/1361-6463/ae3df2",
+    "url_pdf": "https://sites.brown.edu/xiaolab/files/2026/02/d_59_5_055004.pdf",
+    "open_access": true,
+    "tags": ["MTJ", "Vortex state", "Cryogenics", "Tunnel magnetoresistance"],
+    "abstract": "Uniaxial and vortex-state magnetic tunnel junction (MTJ) sensors represent two widely used device configurations for magnetic field detection. Uniaxial sensors remain the prevalent design due to their high sensitivity and straightforward operation, while vortex-state sensors are gaining popularity for their intrinsic non-hysteretic response to external perturbations. Each architecture offers distinct advantages and trade-offs, yet their relative performance under cryogenic conditions has not been systematically characterized. Such knowledge is essential for emerging low-temperature applications, particularly in quantum device metrology and superconducting electronics. In this work, we report the first systematic temperature-dependent comparison of uniaxial and vortex-state MTJ sensors over 10–300 K. In addition to the parallel, antiparallel, and zero-field conductance states, we extract the low-field sensitivity as a function of temperature. Both sensor types exhibit a pronounced increase in their overall tunnel magnetoresistance (TMR) ratio at low temperatures. However, uniaxial MTJs show a 17% reduction in the zero-field sensitivity, driven by a more than twofold rise in coercivity. In contrast, vortex-state MTJs exhibit a nearly constant sensing response over the entire temperature range, showing only a 7% increase of sensitivity at 10 K from 300 K. Additionally, the vortex-state MTJ achieves a temperature coefficient of sensitivity of −376 ppm K−1 at room temperature and −21 ppm K−1 at low temperatures, indicating highly stable and enhanced performance in cryogenic regimes. These results demonstrate that TMR alone does not govern sensing performance and underscore the decisive role of magnetization reversal dynamics and device geometry. Vortex-state MTJs thus emerge as robust candidates for cryogenic sensing applications requiring thermally stable and reliable field detection with diminished hysteresis.",
+    "bibtex": "@article{Mitchell2026UniaxialVortex, title={Contrasting uniaxial and vortex-state magnetic tunnel junction sensors: sensitivity and tunnel magnetoresistance at low temperatures}, author={Mitchell, Liam K. and Brown, Benjamin J. and Adamson, Z. C. and Zaslavsky, A. and Xiao, Gang}, journal={Journal of Physics D: Applied Physics}, volume={59}, number={5}, pages={055004}, year={2026}, doi={10.1088/1361-6463/ae3df2}}"
+  },
+  {
+    "title": "Reassessing magnetic tunnel junction detectability for ultrasensitive sensing using small-field sensitivity and Jiles–Atherton modeling",
+    "authors": [
+      "Benjamin J. Brown",
+      "Liam K. Mitchell",
+      "Hongzhou Yu",
+      "Gang Xiao"
+    ],
+    "venue": "Journal of Physics D: Applied Physics",
+    "year": 2026,
+    "doi": "10.1088/1361-6463/ae802f",
+    "url_pdf": "https://sites.brown.edu/xiaolab/files/2026/07/Brown_2026_J._Phys._D__Appl._Phys._59_265002.pdf",
+    "open_access": true,
+    "tags": ["MTJ", "Sensitivity", "Jiles–Atherton modeling", "Noise"],
+    "abstract": "Magnetic tunnel junction (MTJ) sensors are attractive for detecting extremely small magnetic fields, yet their performance is often quantified using sensitivities derived from major loops or larger-field minor loops which inherently include hysteretic contributions. As a result, these conventional metrics significantly overestimate detectability by including irreversible processes that vanish in the small-field limit. Here, we systematically measure the low-field response of uniaxial MTJs under both ac and dc magnetic excitation and demonstrate a distinct transition from hysteretic to fully reversible behavior as the field amplitude is reduced. By adapting the Jiles–Atherton model to analyze MTJ conductance, we establish a unified framework that captures magnetization processes down to nanotesla range, yielding quantitative parameters that resolve reversible and irreversible dynamics with excellent fidelity. In the reversible regime, the sensitivity converges to a constant value of 0.55%Oe⁻¹, defining an intrinsic, history-independent response of the MTJ. Importantly, this is less than half of the 1.2%Oe⁻¹ obtained from higher-field minor loop estimates but is physically representative of the sensing response in low-field operation. The constant and intrinsic sensitivity corresponds to the true value of detectability, confirmed by noise spectral density measurements under low-field ac excitation. These results establish a quantitative framework for MTJ evaluation that emphasizes intrinsic, hysteresis-free performance, providing both a realistic basis for calculating field detectability and a general methodology for probing magnetization in micron- and nano-scale ferromagnets.",
+    "bibtex": "@article{Brown2026JilesAtherton, title={Reassessing magnetic tunnel junction detectability for ultrasensitive sensing using small-field sensitivity and Jiles–Atherton modeling}, author={Brown, Benjamin J. and Mitchell, Liam K. and Yu, Hongzhou and Xiao, Gang}, journal={Journal of Physics D: Applied Physics}, volume={59}, number={26}, pages={265002}, year={2026}, doi={10.1088/1361-6463/ae802f}}"
+  }
+]
