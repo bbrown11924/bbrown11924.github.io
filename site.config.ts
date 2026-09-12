@@ -14,6 +14,7 @@ export const site = {
       label: "Professional",
       items: [
         { href: "/", label: "Home" },
+        { href: "/research", label: "Research" },
         { href: "/publications", label: "Publications" },
         { href: "/talks", label: "Talks" },
         { href: "/cv", label: "CV" },

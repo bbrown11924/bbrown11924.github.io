@@ -95,6 +95,19 @@ folder:
    `app/<route>/[slug]/page.tsx` (copy
    [`app/instruments/[slug]/page.tsx`](app/instruments/%5Bslug%5D/page.tsx)).
 
+## The Research page's interactive figures
+
+Like the home page's vortex field, `/research` (`app/research/page.tsx`) is
+code, not content — each figure is its own component under
+`components/research/`. The first one, `MtjSensorDemo.tsx`, models a real
+(if simplified) macrospin response rather than just rotating an arrow
+cosmetically — the actual physics is in `lib/mtj.ts` if you want to retune
+the resistance values or check the derivation.
+
+To add another interactive figure: build a new component under
+`components/research/`, then add an `<article>` block for it in
+`app/research/page.tsx` alongside the MTJ one.
+
 ## Running and shipping it
 
 ```bash
