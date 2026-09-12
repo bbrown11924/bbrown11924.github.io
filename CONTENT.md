@@ -19,15 +19,23 @@ entry is one object in a JSON array.
   (`title`, `type`, `event`, `location`, `date` as `YYYY`, `YYYY-MM`, or
   `YYYY-MM-DD` — whatever precision you actually know, `slides_url`,
   `video_url`).
-- [`data/parks.json`](data/parks.json) — the National Parks tracker (under
-  the "Personal" nav menu). Set `"visited": true` on a park to color its pin
-  green on the map and mark it in the list; add `"dateVisited"` if you want
-  to record when. Seeded with all 63 official National Parks — to track a
-  different kind of NPS unit (a National Historical Park, Monument, etc.),
-  add an entry with its own `name`/`type`/`state`/`lat`/`lon` (look up
-  coordinates on the park's NPS.gov page or Wikipedia); it'll show up in the
-  list automatically, and on the map too if it falls within the continental
-  US/Alaska/Hawaii projection.
+- [`data/nps-units.json`](data/nps-units.json) — the National Parks &amp;
+  Sites tracker (under the "Personal" nav menu), covering the full NPS
+  system: National Parks, Historic Sites, Monuments, Battlefields,
+  Recreation Areas, Seashores/Lakeshores, and trails/rivers/misc. Set
+  `"visited": true` on a unit (and add `"dateVisited"`: `"YYYY-MM-DD"`) to
+  mark it visited — it updates its section's count and, if it has
+  coordinates, colors its map pin in. Each entry has:
+  - `name`, `category` (one of the 7 section names — must match one in
+    `CATEGORY_ORDER` in `app/parks/page.tsx` to appear), `type` (a more
+    specific label, e.g. "National Historic Site"), `state`, `region`.
+  - `lat`/`lon` — **optional**. Only units with both show a pin on the map;
+    every unit shows in its category's list below regardless. To add a pin,
+    look up the coordinates on the unit's NPS.gov page or Wikipedia.
+  Seeded from the official 63 National Parks plus the ~360 other NPS units
+  (from a National Park Travelers Club checklist) with their categories and
+  states — most don't have coordinates yet, so they list-only until you (or
+  I) add some.
 
 Just keep it valid JSON (matching commas, quotes). If a page shows nothing or
 errors after an edit, that's almost always a stray/missing comma.
