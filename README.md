@@ -1,4 +1,4 @@
-# physicist-portfolio
+# personal-portfolio
 
 A personal academic website: Next.js (App Router), Tailwind CSS, exported as
 a plain static site (no server required) so it can be hosted anywhere,
