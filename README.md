@@ -40,8 +40,14 @@ npm run dev      # http://localhost:3000, hot-reloads on save
 npm run build    # type-checks, lints, and outputs the static site to out/
 ```
 
-`out/` is what you'd deploy — e.g. to GitHub Pages. If deploying to a GitHub
-Pages *project* site (`username.github.io/repo-name`), set
+`out/` is what gets deployed. If this ever moves to a GitHub Pages *project*
+site (`username.github.io/repo-name`) instead of a user site, set
 `NEXT_PUBLIC_BASE_PATH=/repo-name` before building so asset paths resolve
-correctly (see `next.config.mjs`). Deployment isn't wired up yet — that's a
-separate step for when you're ready to publish.
+correctly (see `next.config.mjs`).
+
+## Deploying
+
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds and
+publishes to GitHub Pages automatically on every push to `master` — no
+separate deploy step needed, just push. One-time setup for a repo:
+**Settings → Pages → Source → GitHub Actions**.
