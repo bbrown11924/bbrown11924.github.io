@@ -1525,7 +1525,8 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false,
+    "visited": true,
+    "dateVisited": "2026-10-03",
     "lat": 42.325,
     "lon": -71.1322
   },
@@ -2154,7 +2155,8 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false,
+    "visited": true,
+    "dateVisited": "2026-10-03",
     "lat": 42.3469,
     "lon": -71.1233
   },
@@ -2466,7 +2468,8 @@
     "type": "National Historic Site",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false,
+    "visited": true,
+    "dateVisited": "2026-10-03",
     "lat": 42.3767,
     "lon": -71.1264
   },
