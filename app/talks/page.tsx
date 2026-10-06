@@ -34,8 +34,7 @@ export default function TalksPage() {
       <header className="space-y-2">
         <h1 className="text-2xl font-semibold">Talks</h1>
         <p className="text-gray-600">
-          Invited and contributed talks, posters, and seminars. Edit{" "}
-          <code>data/talks.json</code> to update this list.
+          Invited and contributed talks, posters, and seminars.
         </p>
       </header>
 

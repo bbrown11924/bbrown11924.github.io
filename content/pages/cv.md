@@ -3,10 +3,6 @@ title: Curriculum Vitae
 pdfUrl: /Benjamin_J_Brown_CV.pdf
 ---
 
-This page is generated from `content/pages/cv.md` — edit the Markdown below
-to keep it current. The PDF button links to
-`public/Benjamin_J_Brown_CV.pdf`; replace that file to update the download.
-
 ## Education
 
 - **Ph.D. in Physics**, Brown University (2022–present) — Advisor: Prof. Gang Xiao. Researching magnetic tunnel junctions for ultrasensitive applications.
@@ -22,19 +18,17 @@ to keep it current. The PDF button links to
 
 ## Publications
 
-See the full, searchable list with abstracts on the [Publications](/publications)
-page — that list comes from `data/publications.json`, not this file.
+See the [Publications](/publications) page for the full list with abstracts
+and citations.
 
 ## Manuscripts in Preparation / Under Review
 
 - L. K. Mitchell, B. J. Brown, and G. Xiao, "Electrical imaging of nanoscale pinning landscapes using magnetic vortex cores." Submitted to *Nature Communications*, 2026.
 - B. J. Brown, L. K. Mitchell, H. Wu, and G. Xiao, "Scaling laws governing intrinsic detectability in vortex magnetic tunnel junctions." Submitted to *npj Spintronics*, 2026.
-- H. Wu, B. J. Brown, and G. Xiao, "Intermittent Lorentzian noise of magnetic tunnel junctions under voltage bias stress." Submitted to the *Journal of Applied Physics*, 2026.
 
 ## Conferences & Talks
 
-See the [Talks](/talks) page for the full list — that comes from
-`data/talks.json`.
+See the [Talks](/talks) page for the full list of presentations.
 
 ## Patents
 

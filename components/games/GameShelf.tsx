@@ -24,10 +24,7 @@ export default function GameShelf({ games }: { games: Game[] }) {
   if (games.length === 0) {
     return (
       <div className="flex h-32 flex-1 items-center rounded-lg border border-dashed px-4 text-sm text-gray-400 sm:h-36">
-        <p>
-          No games added yet — drop a cover in <code>public/games/</code> and add an entry to{" "}
-          <code>data/games.json</code>.
-        </p>
+        <p>Nothing on this shelf yet.</p>
       </div>
     );
   }

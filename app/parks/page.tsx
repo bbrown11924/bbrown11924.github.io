@@ -61,10 +61,7 @@ export default function ParksPage() {
         <p className="text-gray-600">
           Tracking a visit to every stamp in the National Park Service
           system — not just the 63 National Parks, but Historic Sites,
-          Monuments, Battlefields, and more. Edit{" "}
-          <code>data/nps-units.json</code> to update this (set{" "}
-          <code>&quot;visited&quot;: true</code> and add a{" "}
-          <code>dateVisited</code>).
+          Monuments, Battlefields, and more.
         </p>
         <p className="text-sm font-medium">
           {visitedCount} of {units.length} visited

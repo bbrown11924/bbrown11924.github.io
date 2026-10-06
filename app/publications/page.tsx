@@ -69,7 +69,8 @@ export default function PublicationsPage() {
         break;
       case "year-desc":
       default:
-        arr = arr.sort((a, b) => (b.year || 0) - (a.year || 0));
+        // Within a year, newer additions to publications.json come first.
+        arr = arr.sort((a, b) => (b.year || 0) - (a.year || 0) || pubs.indexOf(b) - pubs.indexOf(a));
         break;
     }
 

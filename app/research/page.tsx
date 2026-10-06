@@ -7,7 +7,7 @@ export default function ResearchPage() {
       <header className="space-y-2">
         <h1 className="text-2xl font-semibold">Research</h1>
         <p className="max-w-2xl text-gray-600">
-          A few interactive figures illustrating the physics behind my work — more to come.
+          Interactive figures illustrating the physics behind my work.
         </p>
       </header>
 

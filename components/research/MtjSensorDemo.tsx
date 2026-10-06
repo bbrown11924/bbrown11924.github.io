@@ -171,7 +171,7 @@ export default function MtjSensorDemo() {
           this side view, not up out of the film — so what's drawn is its projection onto the
           sensing axis, not a rotation you'd actually see from this angle. That perpendicular
           easy axis is also deliberate: it's the one geometry where the response to field is
-          smooth and fully reversible, with no jumps (see <code>lib/mtj.ts</code>).
+          smooth and fully reversible, with no jumps.
         </p>
       </div>
 

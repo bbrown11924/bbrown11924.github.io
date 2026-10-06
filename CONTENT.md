@@ -125,6 +125,5 @@ npm run dev      # local dev server at http://localhost:3000, hot-reloads on sav
 npm run build    # type-checks + produces the static site in out/
 ```
 
-`npm run build` is what you'd point GitHub Pages (or any static host) at —
-it needs no server, just the files in `out/`. We haven't wired up deployment
-yet; that's a separate step for when you're ready to publish.
+Publishing is automatic: every push to `master` rebuilds the site and
+deploys it to GitHub Pages (see `.github/workflows/deploy.yml`).

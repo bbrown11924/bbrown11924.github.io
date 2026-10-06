@@ -112,8 +112,7 @@ export default function VortexSensorDemo() {
           <p className="max-w-md text-xs text-gray-500">
             The red dot is the vortex core — notice it moves <em>perpendicular</em> to the field
             you drag, not along it. The blue arrow is the disk's average magnetization (parallel
-            to the field, as any linear sensor's readout should be) — see the derivation in{" "}
-            <code>lib/vortex.ts</code>.
+            to the field, as any linear sensor's readout should be).
           </p>
           <button
             type="button"
