@@ -97,7 +97,7 @@ export default function PublicationsPage() {
         <Select
           value={sort}
           onChange={(v) => setSort(v as SortKey)}
-          options={sortOpts.map(o => o.value)}
+          options={sortOpts}
           label="Sort"
         />
         <div className="flex items-center">
