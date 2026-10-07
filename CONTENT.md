@@ -40,9 +40,12 @@ entry is one object in a JSON array.
 - [`data/games.json`](data/games.json) — the Game Library (under "Personal").
   Each entry is `{ "title", "console", "cover" }`. `console` must be one of
   the ids in [`lib/consoles.ts`](lib/consoles.ts) (`nes`, `gba`, `wii`,
-  `wiiu`, `switch`, `pc`) — that file also controls the section order and
-  labels, and adding a new console there needs a matching icon added to
-  [`components/games/ConsoleIcons.tsx`](components/games/ConsoleIcons.tsx).
+  `wiiu`, `switch`, `pc`, `browser`) — that file also controls the section
+  order and labels. Each console row shows its official logo from
+  `public/consoles/<id>.svg`; PC and Browser Games use line-art sketches in
+  [`components/games/ConsoleIcons.tsx`](components/games/ConsoleIcons.tsx)
+  instead. Adding a new console means adding it to `lib/consoles.ts` and
+  dropping its logo SVG into `public/consoles/`.
   `cover` is a path under `public/games/<console>/` — drop the image file
   there first (roughly 300-500px on the long side is plenty; a full-size
   scan just makes the page slower to load), then point `cover` at it.
