@@ -2,7 +2,8 @@ import type { ConsoleId } from "@/lib/consoles";
 
 // Each console is shown by its official logo (public/consoles/<id>.svg, from
 // Wikimedia Commons, public domain) — except PC, which has no single logo and
-// keeps a simple line-art sketch of a monitor and tower.
+// keeps a simple line-art sketch of a monitor and tower (and browser games a
+// sketch of a browser window).
 
 function Pc() {
   return (
@@ -20,6 +21,23 @@ function Pc() {
   );
 }
 
+function Browser() {
+  // Same sketch style as Pc(): a browser window with a tab, address bar, and a page.
+  return (
+    <svg viewBox="0 0 240 150" className="h-full w-full">
+      <rect x={30} y={14} width={180} height={122} rx={7} fill="#fafaf9" stroke="#44403c" strokeWidth={2.5} />
+      <path d="M30 36 h180" stroke="#44403c" strokeWidth={2} />
+      <circle cx={44} cy={25} r={3.5} fill="#f87171" stroke="#44403c" strokeWidth={1} />
+      <circle cx={56} cy={25} r={3.5} fill="#fbbf24" stroke="#44403c" strokeWidth={1} />
+      <circle cx={68} cy={25} r={3.5} fill="#4ade80" stroke="#44403c" strokeWidth={1} />
+      <rect x={84} y={19} width={110} height={12} rx={6} fill="#e7e5e4" stroke="#44403c" strokeWidth={1.5} />
+      <rect x={44} y={48} width={152} height={52} rx={3} fill="#78716c" />
+      <rect x={44} y={110} width={92} height={7} rx={3} fill="#d6d3d1" />
+      <rect x={44} y={122} width={64} height={7} rx={3} fill="#d6d3d1" />
+    </svg>
+  );
+}
+
 const LOGO_HEIGHT: Partial<Record<ConsoleId, string>> = {
   // Wide, short wordmarks get less height so they don't overpower the taller ones.
   gba: "h-5",
@@ -28,11 +46,12 @@ const LOGO_HEIGHT: Partial<Record<ConsoleId, string>> = {
 };
 
 export default function ConsoleIcon({ id, label }: { id: ConsoleId; label: string }) {
-  if (id === "pc") {
+  if (id === "pc" || id === "browser") {
+    const Sketch = id === "pc" ? Pc : Browser;
     return (
       <div className="flex flex-col items-center gap-1">
         <div className="h-20 w-36">
-          <Pc />
+          <Sketch />
         </div>
         <span className="text-center text-[11px] font-medium uppercase tracking-wide text-gray-400">
           {label}
