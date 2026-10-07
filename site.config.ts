@@ -34,6 +34,6 @@ export const site = {
     scholar: "",
     orcid: "https://orcid.org/0000-0001-6347-9598",
     github: "",
-    researchgate: "",
+    researchgate: "https://www.researchgate.net/profile/Benjamin-Brown-38",
   },
 };
