@@ -9,20 +9,31 @@
   { "title": "Pokémon LeafGreen", "console": "gba", "cover": "/games/gba/leafgreen.jpg" },
   { "title": "Sesame Street Sports", "console": "gba", "cover": "/games/gba/sesame-street-sports.jpg" },
 
+  { "title": "Pokémon Platinum", "console": "ds", "cover": "/games/ds/pokemon-platinum.jpg" },
+  { "title": "Pokémon Black", "console": "ds", "cover": "/games/ds/pokemon-black.jpg" },
+  { "title": "Fossil Fighters", "console": "ds", "cover": "/games/ds/fossil-fighters.jpg" },
+  { "title": "Mario & Luigi: Bowser's Inside Story", "console": "ds", "cover": "/games/ds/mario-and-luigi-bowsers-inside-story.jpg" },
+
   { "title": "Wii Play", "console": "wii", "cover": "/games/wii/wii-play.jpg" },
   { "title": "Lego Star Wars: The Video Game", "console": "wii", "cover": "/games/wii/lego-star-wars.jpg" },
   { "title": "Lego Batman: The Videogame", "console": "wii", "cover": "/games/wii/lego-batman.jpg" },
   { "title": "New Super Mario Bros. Wii", "console": "wii", "cover": "/games/wii/new-super-mario-bros-wii.jpg" },
   { "title": "Super Monkey Ball: Banana Blitz", "console": "wii", "cover": "/games/wii/super-monkey-ball-banana-blitz.jpg" },
+  { "title": "Super Mario Galaxy", "console": "wii", "cover": "/games/wii/super-mario-galaxy.jpg" },
+  { "title": "Super Mario Galaxy 2", "console": "wii", "cover": "/games/wii/super-mario-galaxy-2.jpg" },
+  { "title": "Super Paper Mario", "console": "wii", "cover": "/games/wii/super-paper-mario.jpg" },
+  { "title": "de Blob", "console": "wii", "cover": "/games/wii/de-blob.jpg" },
 
   { "title": "Super Mario Maker", "console": "wiiu", "cover": "/games/wiiu/super-mario-maker.jpg" },
   { "title": "New Super Mario Bros. U", "console": "wiiu", "cover": "/games/wiiu/new-super-mario-bros-u.jpg" },
+  { "title": "Nintendo Land", "console": "wiiu", "cover": "/games/wiiu/nintendo-land.jpg" },
 
   { "title": "Super Mario Maker 2", "console": "switch", "cover": "/games/switch/mario-maker-2.jpg" },
   { "title": "Pokémon Legends: Arceus", "console": "switch", "cover": "/games/switch/pokemon-legends-arceus.jpg" },
   { "title": "Pokémon Sword", "console": "switch", "cover": "/games/switch/pokemon-sword.jpg" },
   { "title": "Pokémon: Let's Go, Eevee!", "console": "switch", "cover": "/games/switch/pokemon-lets-go-eevee.jpg" },
   { "title": "Super Mario Bros. Wonder", "console": "switch", "cover": "/games/switch/super-mario-bros-wonder.jpg" },
+  { "title": "Super Mario Odyssey", "console": "switch", "cover": "/games/switch/super-mario-odyssey.jpg" },
 
   { "title": "Core Keeper", "console": "pc", "cover": "/games/pc/core-keeper.jpg" },
   { "title": "Grounded", "console": "pc", "cover": "/games/pc/grounded.jpg" },
@@ -34,6 +45,7 @@
   { "title": "Terraria", "console": "pc", "cover": "/games/pc/terraria.jpg" },
   { "title": "Minecraft", "console": "pc", "cover": "/games/pc/minecraft.jpg" },
   { "title": "Blue Prince", "console": "pc", "cover": "/games/pc/blue-prince.jpg" },
+  { "title": "Peglin", "console": "pc", "cover": "/games/pc/peglin.jpg" },
 
   { "title": "Poptropica", "console": "browser", "cover": "/games/browser/poptropica.jpg" },
   { "title": "Webkinz", "console": "browser", "cover": "/games/browser/webkinz.jpg" }

@@ -4,6 +4,7 @@
 export const CONSOLES = [
   { id: "nes", label: "Nintendo Entertainment System" },
   { id: "gba", label: "Game Boy Advance" },
+  { id: "ds", label: "Nintendo DS" },
   { id: "wii", label: "Wii" },
   { id: "wiiu", label: "Wii U" },
   { id: "switch", label: "Nintendo Switch" },

@@ -39,7 +39,7 @@ entry is one object in a JSON array.
 
 - [`data/games.json`](data/games.json) — the Game Library (under "Personal").
   Each entry is `{ "title", "console", "cover" }`. `console` must be one of
-  the ids in [`lib/consoles.ts`](lib/consoles.ts) (`nes`, `gba`, `wii`,
+  the ids in [`lib/consoles.ts`](lib/consoles.ts) (`nes`, `gba`, `ds`, `wii`,
   `wiiu`, `switch`, `pc`, `browser`) — that file also controls the section
   order and labels. Each console row shows its official logo from
   `public/consoles/<id>.svg`; PC and Browser Games use line-art sketches in

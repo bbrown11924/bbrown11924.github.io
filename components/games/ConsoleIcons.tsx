@@ -41,6 +41,7 @@ function Browser() {
 const LOGO_HEIGHT: Partial<Record<ConsoleId, string>> = {
   // Wide, short wordmarks get less height so they don't overpower the taller ones.
   gba: "h-5",
+  ds: "h-6",
   nes: "h-14",
   switch: "h-20",
 };
