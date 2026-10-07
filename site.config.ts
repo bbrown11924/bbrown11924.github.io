@@ -31,7 +31,7 @@ export const site = {
   ],
   links: {
     email: "benjamin_brown1@brown.edu",
-    scholar: "",
+    scholar: "https://scholar.google.com/citations?user=0VC1h4IAAAAJ",
     orcid: "https://orcid.org/0000-0001-6347-9598",
     github: "",
     researchgate: "https://www.researchgate.net/profile/Benjamin-Brown-38",
