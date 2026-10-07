@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import talksRaw from "@/data/talks.json";
 import Badge from "@/components/Badge";
+
+export const metadata: Metadata = { title: "Talks" };
 
 type Talk = {
   title: string;

@@ -16,6 +16,9 @@ export type Pub = {
   bibtex?: string;
 };
 
+// Matches the site owner's name as it appears across journals ("Benjamin J. Brown", "B. Brown", "B. J. Brown").
+const SELF = /^(Benjamin|B\.)( J\.)? Brown$/;
+
 export default function PublicationItem({ p }: { p: Pub }) {
   return (
     <article className="rounded-2xl border p-4 shadow-sm transition hover:shadow-md">
@@ -25,7 +28,13 @@ export default function PublicationItem({ p }: { p: Pub }) {
       </div>
       {(p.authors?.length || p.venue) && (
         <p className="mt-1 text-sm text-gray-600">
-          {p.authors?.join(", ")}{p.venue ? <> — <em>{p.venue}</em></> : null}
+          {p.authors?.map((a, i) => (
+            <span key={i}>
+              {i > 0 && ", "}
+              {SELF.test(a) ? <strong className="font-semibold text-gray-900">{a}</strong> : a}
+            </span>
+          ))}
+          {p.venue ? <> — <em>{p.venue}</em></> : null}
         </p>
       )}
 

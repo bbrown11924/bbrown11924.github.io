@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import unitsRaw from "@/data/nps-units.json";
+
+export const metadata: Metadata = { title: "National Parks" };
 
 // Loaded client-only: react-simple-maps measures its SVG on the client and
 // mismatches server-rendered markup if hydrated normally.

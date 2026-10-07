@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import MtjSensorDemo from "@/components/research/MtjSensorDemo";
 import VortexSensorDemo from "@/components/research/VortexSensorDemo";
+
+export const metadata: Metadata = { title: "Research" };
 
 export default function ResearchPage() {
   return (

@@ -4,8 +4,21 @@ import NavBar from "@/components/NavBar";
 import { site } from "@/site.config";
 
 export const metadata: Metadata = {
-  title: `${site.name} — ${site.role}`,
+  // Absolute base for the link-preview image URL (app/opengraph-image.png).
+  metadataBase: new URL(site.url),
+  title: {
+    default: `${site.name} — ${site.role}`,
+    template: `%s · ${site.name}`,
+  },
   description: site.tagline,
+  openGraph: {
+    type: "website",
+    siteName: site.name,
+    title: `${site.name} — ${site.role}`,
+    description: site.tagline,
+    url: "/",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import Prose from "@/components/Prose";
+
+export const metadata: Metadata = { title: "CV" };
 
 export default async function CvPage() {
   const { frontmatter, html } = await getPage<{ title: string; pdfUrl?: string }>("cv");

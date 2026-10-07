@@ -8,6 +8,7 @@
 export const site = {
   name: "Benjamin J. Brown",
   role: "Ph.D. Candidate in Physics",
+  url: "https://bbrown11924.github.io",
   tagline: "Magnetic tunnel junction sensors, vortex-state spintronics, and cryogenic instrumentation — Brown University",
   navGroups: [
     {

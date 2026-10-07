@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import { getPage } from "@/lib/content";
 import Prose from "@/components/Prose";
 import { LinkIcon, type LinkKey } from "@/components/LinkIcons";
 import { site } from "@/site.config";
+
+export const metadata: Metadata = { title: "Contact" };
 
 const linkLabels: Record<LinkKey, string> = {
   email: "Email",

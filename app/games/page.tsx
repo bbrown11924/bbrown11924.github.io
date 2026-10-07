@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import gamesRaw from "@/data/games.json";
 import { CONSOLES, type ConsoleId } from "@/lib/consoles";
 import ConsoleIcon from "@/components/games/ConsoleIcons";
 import GameShelf from "@/components/games/GameShelf";
+
+export const metadata: Metadata = { title: "Game Library" };
 
 type Game = { title: string; console: string; cover: string };
 
