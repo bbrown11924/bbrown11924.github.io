@@ -36,7 +36,6 @@ export default function GameShelf({ games }: { games: Game[] }) {
           <GameCase key={g.title} game={g} tilt={i % 2 === 0 ? -1.5 : 1.5} />
         ))}
       </div>
-      <div className="h-2 rounded-full bg-gradient-to-b from-gray-300 to-gray-200" />
     </div>
   );
 }

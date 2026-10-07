@@ -1,6 +1,6 @@
-// Ordered oldest to newest, PC last as the ongoing catch-all. `id` must
-// match both a game's "console" field in data/games.json and a case in
-// components/games/ConsoleIcons.tsx.
+// Ordered oldest to newest, then PC (the ongoing catch-all) and browser games. `id` must
+// match a game's "console" field in data/games.json, and (except PC and browser) have
+// a logo at public/consoles/<id>.svg.
 export const CONSOLES = [
   { id: "nes", label: "Nintendo Entertainment System" },
   { id: "gba", label: "Game Boy Advance" },
@@ -8,6 +8,7 @@ export const CONSOLES = [
   { id: "wiiu", label: "Wii U" },
   { id: "switch", label: "Nintendo Switch" },
   { id: "pc", label: "PC (Steam)" },
+  { id: "browser", label: "Browser Games" },
 ] as const;
 
 export type ConsoleId = (typeof CONSOLES)[number]["id"];

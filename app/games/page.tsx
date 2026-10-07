@@ -24,11 +24,8 @@ export default function GamesPage() {
       <div className="divide-y">
         {CONSOLES.map(({ id, label }: { id: ConsoleId; label: string }) => (
           <div key={id} className="flex flex-col gap-3 py-6 sm:flex-row sm:items-center sm:gap-8">
-            <div className="flex w-full shrink-0 flex-col items-center gap-1 sm:w-36">
-              <ConsoleIcon id={id} className="h-20 w-full text-stone-700" />
-              <span className="text-center text-[11px] font-medium uppercase tracking-wide text-gray-400">
-                {label}
-              </span>
+            <div className="flex w-full shrink-0 items-center justify-center sm:h-36 sm:w-44">
+              <ConsoleIcon id={id} label={label} />
             </div>
             <GameShelf games={games.filter((g) => g.console === id)} />
           </div>
