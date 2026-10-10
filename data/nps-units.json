@@ -431,7 +431,8 @@
     "type": "National Recreation Area",
     "state": "Massachusetts",
     "region": "North Atlantic",
-    "visited": false,
+    "visited": true,
+    "dateVisited": "2026-10-10",
     "lat": 42.3186,
     "lon": -70.9458
   },
